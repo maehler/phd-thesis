@@ -11,11 +11,13 @@ PFLAGS=--latex-engine=xelatex --chapters -H includes/preamble.tex \
 
 OUTPUT=thesis
 
-pdf: bib $(OUTPUT).pdf
-tex: bib $(OUTPUT).tex
+BIB=$(REFDIR)/$(OUTPUT).bib
 
-bib: $(REFDIR) $(MENDELEY)
-	cp $(MENDELEY) $(REFDIR)/$(OUTPUT).bib
+pdf: $(BIB) $(OUTPUT).pdf
+tex: $(BIB) $(OUTPUT).tex
+
+$(BIB): $(REFDIR) $(MENDELEY)
+	cp $(MENDELEY) $@
 
 $(OUTPUT).pdf: $(MD)
 	$(PC) $(PFLAGS) $(MD) -o $@
@@ -27,4 +29,5 @@ $(REFDIR):
 	mkdir -p references
 
 clean:
-	rm -f $(OUTPUT).{pdf,tex}
+	rm -f $(OUTPUT).pdf
+	rm -f $(OUTPUT).tex
