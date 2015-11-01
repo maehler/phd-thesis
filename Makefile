@@ -6,7 +6,8 @@ MD=$(addprefix $(MDDIR)/,title.md summary.md toc.md intro.md chapter2.md \
 MENDELEY=~/Dropbox/mendeley/Thesis.bib
 REFDIR=references
 
-PFLAGS=--latex-engine=xelatex --chapters -H includes/preamble.tex \
+PFLAGS=--latex-engine=xelatex --filter pandoc-fignos \
+	--chapters -H includes/preamble.tex \
 	-V documentclass=book --bibliography=$(REFDIR)/$(OUTPUT).bib
 
 OUTPUT=thesis
