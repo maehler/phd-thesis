@@ -7,7 +7,7 @@ MENDELEY=~/Dropbox/mendeley/Thesis.bib
 REFDIR=references
 
 PFLAGS=--latex-engine=xelatex --filter pandoc-fignos \
-	--chapters -H includes/preamble.tex \
+	--chapters --number-sections -H includes/preamble.tex \
 	-V documentclass=book --bibliography=$(REFDIR)/$(OUTPUT).bib
 
 OUTPUT=thesis
