@@ -1,7 +1,7 @@
 PC=pandoc
 
 MDDIR=markdown
-MD=$(addprefix $(MDDIR)/,title.md summary.md toc.md intro.md chapter2.md \
+MD=$(addprefix $(MDDIR)/,title.md summary.md toc.md chapter1.md chapter2.md \
 	chapter3.md references.md)
 PREAMBLE=includes/preamble.tex
 MENDELEY=~/Dropbox/mendeley/Thesis.bib
