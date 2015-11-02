@@ -22,6 +22,12 @@ One of the most fundamental concepts of biology, and also for this thesis, is th
 
 ## Gene expression and its regulation
 
+### Promoters and their role in gene expression
+
+### Regulatory motifs
+
+### Co-expression networks
+
 ## Phenotypic variation in natural populations
 
 In natural populations of all organisms we see phenotypic variation, i.e. variation in the appearance or behaviour of these organisms. In bacteria, this might appear as differences in viability while in humans it might be manifested as differences in height, just to mention a couple of simple examples. This variability can be a result of environment, EXAMPLE HERE, or it can be a direct result of genotypic differences. This variation in phenotype is a manifestation of one of the most fundamental requirements for evolution; without natural variation we would not have evolution. The reason for this variation is that the machinery responsible for making new organisms, be it sexual or asexual reproduction, is error-prone. Whenever a cell divides, there is a possibility for errors. Over time these errors can accumulate, disappear or be fixed in a population depending on whether they are beneficial, neutral or even harmful for the organism.
