@@ -16,6 +16,7 @@ BIB=$(REFDIR)/$(OUTPUT).bib
 
 pdf: $(BIB) $(OUTPUT).pdf
 tex: $(BIB) $(OUTPUT).tex
+doc: $(BIB) $(OUTPUT).docx
 
 $(BIB): $(REFDIR) $(MENDELEY)
 	cp $(MENDELEY) $@
@@ -24,6 +25,9 @@ $(OUTPUT).pdf: $(MD)
 	$(PC) $(PFLAGS) $(MD) -o $@
 
 $(OUTPUT).tex: $(MD)
+	$(PC) $(PFLAGS) $(MD) -o $@
+
+$(OUTPUT).docx: $(MD)
 	$(PC) $(PFLAGS) $(MD) -o $@
 
 $(REFDIR):
