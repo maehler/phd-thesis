@@ -28,6 +28,15 @@ One of the most fundamental concepts of biology, and also for this thesis, is th
 
 ### Co-expression networks
 
-## Phenotypic variation in natural populations
+## Natural variation
 
 In natural populations of all organisms we see phenotypic variation, i.e. variation in the appearance or behaviour of these organisms. In bacteria, this might appear as differences in viability while in humans it might be manifested as differences in height, just to mention a couple of simple examples. This variability can be a result of environment, EXAMPLE HERE, or it can be a direct result of genotypic differences. This variation in phenotype is a manifestation of one of the most fundamental requirements for evolution; without natural variation we would not have evolution. The reason for this variation is that the machinery responsible for making new organisms, be it sexual or asexual reproduction, is error-prone. Whenever a cell divides, there is a possibility for errors. Over time these errors can accumulate, disappear or be fixed in a population depending on whether they are beneficial, neutral or even harmful for the organism.
+
+- Mention that many of the mutations will be neutral, i.e. have no practical effect on downstream phenotypes, be it gene expression or some higher-order phenotype.
+- Talk about mutations in regulatory regions, and mutations in what previously has been labeled as junk-DNA.
+- Go into a small discussion on how the view of junk-DNA has changed the last ten years, and how this is a consequence of better sequencing technologies (?).
+
+## Genetic association studies
+
+- In order to connect genotypic variation with phenotypic variation.
+- Some words on linkage and causal variants?
