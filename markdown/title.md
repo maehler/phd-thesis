@@ -14,7 +14,7 @@
     \vspace{1.5cm}
 
     A thesis submitted to attain the degree of\\
-    \large{\textsc{Doctor of Sciences of Your University}}\\ 
+    \large{\textsc{Doctor of Sciences of Your University}}\\
     (Dr. sc. Your University)
 
     \vspace{0.8cm}        
@@ -23,13 +23,7 @@
     \textbf{Author Name}
 
     \vspace{0.8cm}    
-    \textit{MSc in some Field, some University}       
-
-    \vspace{0.8cm}          
-    born on your date of birth 
-
-    \vspace{0.5cm}     
-    citizen of some Country
+    \textit{MSc in some Field, some University}
 
     \vspace{2cm}
     accepted on the recommendation of
@@ -41,7 +35,7 @@
 
     \end{center}
     \thispagestyle{empty}
-\end{titlepage} 
+\end{titlepage}
 
 \newpage
 \thispagestyle{empty}
