@@ -28,6 +28,11 @@ One of the most fundamental concepts of biology, and also for this thesis, is th
 
 ### Co-expression networks
 
+- Similarities in gene expression across conditions. For example, if two genes are both up-regulated when exposed to a cold environment, and down-regulated when exposed to a warm environment, then we can say that the two genes are co-expressed.
+- Can be seen as a network structure where genes are nodes and the co-expression relationship is represented by connections (edges) between these nodes.
+- Co-expression modules and how they can be identified, and more importantly, their significance.
+- Characteristics of typical biological networks, e.g. scale-freeness and module enrichment analysis.
+
 ## Natural variation
 
 In natural populations of all organisms we see phenotypic variation, i.e. variation in the appearance or behaviour of these organisms. In bacteria, this might appear as differences in viability while in humans it might be manifested as differences in height, just to mention a couple of simple examples. This variability can be a result of environment, EXAMPLE HERE, or it can be a direct result of genotypic differences. This variation in phenotype is a manifestation of one of the most fundamental requirements for evolution; without natural variation we would not have evolution. The reason for this variation is that the machinery responsible for making new organisms, be it sexual or asexual reproduction, is error-prone. Whenever a cell divides, there is a possibility for errors. Over time these errors can accumulate, disappear or be fixed in a population depending on whether they are beneficial, neutral or even harmful for the organism.
