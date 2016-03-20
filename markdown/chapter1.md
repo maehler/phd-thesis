@@ -6,7 +6,7 @@ figPrefix:
 
 \mainmatter
 
-# Background
+# Introduction
 
 Some phenotypes are simple to explain from a genetic point of view. Perhaps the most commonly known experiment of this kind is the one by Gregor Mendel in the 17th century\footnote{In reality, he performed quite a few experiments.}. He crossed peas having different properties; some were green, some were yellow, some were wrinkly, some were smooth. He then observed how these traits were passed down to the next generation of pea plants and thus laid the foundation for what we today refer to as Mendelian inheritance. This is something that is so fundamental in biology that it is taught already in elementary school. So, is an elementary school subject really something you want to build a PhD thesis on? I would say yes (of course), because not all phenotypes are this simple to explain. One notorious example of a phenotype that is difficult to explain is human height. Human height has a very high heritability, *i.e.* it is easy to predict the height of a child if you know the heights of its parents, but from a genetic point of view there has been numerous studies trying to find genetic variants that can help explain human height. In a recent study [REF] a team of researchers managed to find xxx genetic variants that were associated with human height, but together these variants only explained xxx percent. This is a complex trait; a trait that cannot be explained by a single gene or a single variant. It can be seen as an emergent property, *i.e.* a property that is the result of many small effects that individually explain almost nothing of the emergent property, while in concert, they are able to....
 
