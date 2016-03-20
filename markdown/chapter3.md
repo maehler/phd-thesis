@@ -1,3 +1,3 @@
-# Third chapter
+# Discussion
 
-This is the third chapter.
+## Future perspectives
