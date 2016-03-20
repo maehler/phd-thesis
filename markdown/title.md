@@ -1,37 +1,44 @@
 \begin{titlepage}
     \begin{center}
 
-    \vspace*{1cm}
-
-    Dissertation No.
-
-    \vspace*{1cm}
-
-    \large{ \textbf{ \uppercase{Gene regulation and the emergence of phenotypes, a network approach}}}
-
-    \vspace{0.5cm}
+    \large{\textbf{{Gene regulation and the emergence of phenotypes --- a network approach}}}
 
     \vspace{1.5cm}
 
-    A thesis submitted to attain the degree of\\
-    \large{\textsc{Doctor of Sciences of Your University}}\\
-    (Dr. sc. Your University)
+    \parbox{0.7\textwidth}{
+        \centering
+        \normalsize{Genregulering og opprinnelse av fenotyper --- en nettverksbasert tilærmelse}
+    }
 
-    \vspace{0.8cm}        
+    \vspace{1.5cm}
 
-    presented by\\        
-    \textbf{Niklas M\"ahler}
+    \normalsize
 
-    \vspace{0.8cm}    
-    \textit{MSc in some Field, some University}
+    Philosophiae Doctor (PhD) Thesis
 
-    \vspace{2cm}
-    accepted on the recommendation of
-    Names of Your Professors              
+    \vspace{0.5cm}
+     
+    Niklas Mähler
 
+    \vspace{0.5cm}
+
+    Dept. of Chemistry, Biotechnology and Food  \\
+    Norwegian University of Life Sciences
+
+    \vspace{0.5cm}
+
+    Ås 2016
+
+    \vspace{1cm}
+
+    \includegraphics[]{figures/nmbu_logo}
+    
     \vfill
-
-    2014 or other year
+    \small{
+        Thesis number xxx \\
+        ISSN xxx-xxxx \\
+        ISBN xxx-xx-xxx-xxxx-x
+    }
 
     \end{center}
     \thispagestyle{empty}
