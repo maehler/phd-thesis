@@ -14,11 +14,9 @@ The following sections will serve as a background to the work presented in this 
 
 One of the most fundamental concepts of biology, and also for this thesis, is the central dogma of molecular biology. It was first declared by Francis Crick [-@Crick1958] where he states that "once 'information' has passed into protein *it cannot get out again*". In other words, information flows from deoxyribonucleic acid (DNA) via ribonucleic acid (RNA) to protein with the help of the transcriptional machinery (@fig:central-dogma).
 
-![DNA is transcribed into messenger RNA that in turn is translated into protein.][central-dogma]{#fig:central-dogma}
+![DNA is transcribed into messenger RNA that in turn is translated into protein.](figures/placeholder.png){#fig:central-dogma width=100%}
 
 > Go on to talk about how replication is imperfect, i.e. errors are introduced and how this relates to evolution.
-
-[central-dogma]: figures/placeholder.png
 
 ## Gene expression and its regulation
 
