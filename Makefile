@@ -41,4 +41,3 @@ $(REFDIR):
 clean:
 	rm -f $(OUTPUT).*
 	rm -f $(OUTPUT).*
-	rm -f papers/*
