@@ -7,7 +7,7 @@
 
     \vspace*{1cm}
 
-    \large{ \textbf{ \uppercase{Your Title\\Subtitle in next line if you want}}}
+    \large{ \textbf{ \uppercase{Gene regulation and the emergence of phenotypes, a network approach}}}
 
     \vspace{0.5cm}
 
@@ -20,7 +20,7 @@
     \vspace{0.8cm}        
 
     presented by\\        
-    \textbf{Author Name}
+    \textbf{Niklas M\"ahler}
 
     \vspace{0.8cm}    
     \textit{MSc in some Field, some University}
