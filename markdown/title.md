@@ -7,7 +7,7 @@
 
     \parbox{0.7\textwidth}{
         \centering
-        \normalsize{Genregulering og opprinnelse av fenotyper --- en nettverksbasert tilærmelse}
+        \normalsize{Norwegian title}
     }
 
     \vspace{1.5cm}
@@ -17,7 +17,7 @@
     Philosophiae Doctor (PhD) Thesis
 
     \vspace{0.5cm}
-     
+
     Niklas Mähler
 
     \vspace{0.5cm}
@@ -32,7 +32,7 @@
     \vspace{1cm}
 
     \includegraphics[]{figures/nmbu_logo}
-    
+
     \vfill
     \small{
         Thesis number xxx \\
