@@ -1,8 +1,8 @@
 PC=pandoc
 
 MDDIR=markdown
-MD=$(addprefix $(MDDIR)/,title.md summary.md toc.md chapter1.md chapter2.md \
-	chapter3.md references.md)
+MD=$(addprefix $(MDDIR)/,title.md summary.md paper_list.md toc.md chapter1.md \
+	chapter2.md chapter3.md references.md)
 PREAMBLE=includes/preamble.tex
 PAPER_PREAMBLE=includes/paper_preamble.tex
 MENDELEY=~/Dropbox/mendeley/Thesis.bib
@@ -39,5 +39,4 @@ $(REFDIR):
 	mkdir -p references
 
 clean:
-	rm -f $(OUTPUT).*
 	rm -f $(OUTPUT).*
