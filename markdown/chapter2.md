@@ -1,4 +1,9 @@
-# Second chapter
+# Paper summaries
 
-This will be the second chapter of my PhD-thesis. This is an example reference
-[@Robinson2012]
+## Paper I --- Gene regulation
+
+## Paper II --- Two-class phenotype prediction
+
+## Paper III --- eQTL mapping
+
+## Paper IV --- GWAS
