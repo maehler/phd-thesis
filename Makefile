@@ -23,7 +23,7 @@ PAPERMD=$(addprefix $(MDDIR)/, paper1.md paper2.md)
 OUTPUT=thesis
 BIB=$(REFDIR)/$(OUTPUT).bib
 
-.PHONY: pdf tex doc clean docmerge
+.PHONY: pdf tex doc clean
 
 pdf: $(OUTPUT).pdf
 tex: $(OUTPUT).tex
