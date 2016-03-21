@@ -27,17 +27,20 @@ The main reason for seeing genetic variation is that DNA replication is not perf
 
 In natural populations of all organisms we see phenotypic variation, i.e. variation in the appearance or behaviour of these organisms. In bacteria, this might appear as differences in viability while in humans it might be manifested as differences in height, just to mention a couple of simple examples. This variability can be a result of environment, EXAMPLE HERE, or it can be a direct result of genotypic differences. This variation in phenotype is a manifestation of one of the most fundamental requirements for evolution; without natural variation we would not have evolution. The reason for this variation is that the machinery responsible for making new organisms, be it sexual or asexual reproduction, is error-prone. Whenever a cell divides, there is a possibility for errors. Over time these errors can accumulate, disappear or be fixed in a population depending on whether they are beneficial, neutral or even harmful for the organism.
 
-## Genetic variation
+## Genetic variation {#sec:genetic-variation}
 
-One of the most fundamental properties of biology is that replication of DNA is not perfect. Each time a cell is divided, the genetic material must be copied, and the machinery that copies the DNA makes mistakes. This introduces variation in the DNA sequence, and if these changes are introduced in the meiosis, i.e. in the production of gametes, the change might be passed down to the next generation. A mutation can take many different forms; everything from having no effect at all to being beneficial to be responsible for the death of the organism.
+One of the most fundamental properties of biology is that replication of DNA is not perfect. Each time a cell is divided, the genetic material must be copied, and the machinery that copies the DNA makes mistakes. This introduces variation in the DNA sequence, and if these changes are introduced in the meiosis, i.e. in the production of gametes, the change might be passed down to the next generation. A mutation can take many different forms; everything from having no effect at all to being beneficial to be responsible for the death of the organism. The change of a single nucleotide in the genome is called a single nucleotide polymorphism (SNP) and can be observed by comparing the same position, or locus, in a population of individuals. If the population has different variants, or alleles, at this locus, we observe a SNP. The different alleles of the SNP occur with a certain frequency (allele frequency) in the population. In order to detect the most rare variants, a very large population of individuals is needed [REF].
 
-- SNPs in a population context (is there any other context for SNPs?)
+![Figure zooming in on the genetic variation component of [@fig:overview].](figures/placeholder.png){#fig:genetic-variation width=100%}
 
-- Mention that many of the mutations will be neutral, i.e.\ have no practical effect on downstream phenotypes, be it gene expression or some higher-order phenotype.
+Mutations in coding regions of the genome, that is, genomic sequences that eventually gets translated into proteins, can have different effects. They can be silent, i.e.\ not cause any change to the protein sequence, they can be mis-sense mutations, i.e.\ they change the amino acid composition of the protein, or they can be non-sense mutations, i.e.\ they will cause the translation to be terminated prematurely. In the past, a lot of focus has been directed towards variants in the coding regions of the genome [REF], but in the past 10-15 years, this has changed. The arrival of high-throughput sequencing technologies has made it possible to sequence complete genomes in shorter time with less money than what was previously possible. What this also enabled was the possibility to not only focus on a narrow region of interest, or a region where prior information was available; the *whole* genome could be sequenced for *whole* populations. This way genetic variants can be detected by comparing the same position in the genome across a whole population of individuals.
+
 - Talk about mutations in regulatory regions, and mutations in what previously has been labeled as junk-DNA.
 - Go into a small discussion on how the view of junk-DNA has changed the last ten years, and how this is a consequence of better sequencing technologies (?).
 
 ### Quantifying genetic variation
+
+With the high-throughput sequencing technologies that exist today,
 
 ## Gene expression
 
