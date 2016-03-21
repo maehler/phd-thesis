@@ -48,11 +48,17 @@ All living organism have the four nucleotides adenine (A), cytosine (C), guanine
 
 - The concept of genes as units of DNA associated with a particular transcript/protein with a certain function. Contrast Mendel with Dawkins.
 
+![Figure zooming in on the gene expression part of [@fig:overview].](figures/placeholder.png){#fig:gene-expression width=100%}
+
 ### Regulation of gene expression {#sec:regulation-of-gene-expression}
 
-#### Regulatory motifs
+- Transcription factor binding sites/regulatory motifs
+- Long range regulatory elements
+- Direct and indirect effects on gene expression
 
 ### Co-expression networks
+
+Co-expression is a manifestation of the underlying regulatory network. If two genes are regulated by the same factors, chances are that these genes also are co-expressed, i.e.\ expressed at the same level regardless of changes in e.g.\ environment.
 
 - Similarities in gene expression across conditions. For example, if two genes are both up-regulated when exposed to a cold environment, and down-regulated when exposed to a warm environment, then we can say that the two genes are co-expressed.
 - Can be seen as a network structure where genes are nodes and the co-expression relationship is represented by connections (edges) between these nodes.
