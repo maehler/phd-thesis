@@ -10,6 +10,7 @@ REFDIR=references
 
 PFLAGS=--latex-engine=pdflatex \
 	--filter pandoc-crossref \
+	--filter pandoc-citeproc \
 	--template templates/template.tex \
 	--chapters --number-sections -H $(PREAMBLE) \
 	-V documentclass=book \
