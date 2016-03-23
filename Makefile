@@ -17,7 +17,9 @@ PFLAGS=--latex-engine=pdflatex \
 	-V fontsize=10pt \
 	--bibliography=$(REFDIR)/$(OUTPUT).bib \
 	--include-after-body $(MDDIR)/paper1.md \
-	--include-after-body $(MDDIR)/paper2.md
+	--include-after-body $(MDDIR)/paper2.md \
+	--include-after-body $(MDDIR)/paper3.md \
+	--include-after-body $(MDDIR)/paper4.md
 
 PAPERMD=$(addprefix $(MDDIR)/, paper1.md paper2.md)
 
