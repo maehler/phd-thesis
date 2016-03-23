@@ -13,7 +13,7 @@ PFLAGS=--latex-engine=pdflatex \
 	--template templates/template.tex \
 	--chapters --number-sections -H $(PREAMBLE) \
 	-V documentclass=book \
-	-V fontsize=12pt \
+	-V fontsize=10pt \
 	--bibliography=$(REFDIR)/$(OUTPUT).bib \
 	--include-after-body $(MDDIR)/paper1.md \
 	--include-after-body $(MDDIR)/paper2.md
