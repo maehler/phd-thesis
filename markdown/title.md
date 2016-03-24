@@ -1,7 +1,7 @@
 \begin{titlepage}
     \begin{center}
 
-    \large{\textbf{{Gene regulation and the emergence of phenotypes --- a network approach}}}
+    \large{\textbf{{Gene regulation and the emergence of phenotypes---a network approach}}}
 
     \vspace{1.5cm}
 
