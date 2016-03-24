@@ -9,3 +9,5 @@
 - With this comes an avalanche of ethical dilemmas.
 
 - Populations and a single reference genome. There is no ground truth. Reference genomes must become more flexible and allow for genetic variants. Today, we see bias in gene expression quantification where reads from RNA-Seq reads are aligned to a reference genome [REF]. If there is a polymorphism in the studied sample that is not present in the reference genome, the expression of that gene will be underestimated [REFS]. Reference allele bias.
+
+- Catch 22 when it comes to small effects. We need large sample sizes in order to detect them, and when we have detected them, we instead have a huge combinatorics problem that we simply cannot solve without any prior information.
