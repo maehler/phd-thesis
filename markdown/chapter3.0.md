@@ -11,3 +11,5 @@
 - Populations and a single reference genome. There is no ground truth. Reference genomes must become more flexible and allow for genetic variants. Today, we see bias in gene expression quantification where reads from RNA-Seq reads are aligned to a reference genome [REF]. If there is a polymorphism in the studied sample that is not present in the reference genome, the expression of that gene will be underestimated [REFS]. Reference allele bias.
 
 - Catch 22 when it comes to small effects. We need large sample sizes in order to detect them, and when we have detected them, we instead have a huge combinatorics problem that we simply cannot solve without any prior information.
+
+- These are exciting times that we are living in. On the other hand, looking back at the historical examples in this thesis, I am sure that this sentence has been uttered in each and every one of these. In short, biology is exciting!
