@@ -13,6 +13,9 @@ This is usually performed using relatively simple regression models where the di
 - Some words on linkage and causal variants?
 - GWAS: here there have been a lot of work done. See if there is something suitable in plants that I can refer to.
 - Some words on statistical power.
+- Common disease---common variant hypothesis
+- Infinitesimal model
+	- Diseases are caused by a large number of variants with small effect.
 
 ### eQTL mapping
 
