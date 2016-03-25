@@ -1,8 +1,9 @@
 PC=pandoc
 
 MDDIR=markdown
-MD=$(addprefix $(MDDIR)/,title.md summary.md paper_list.md toc.md chapter1.md \
-	chapter2.md chapter3.md references.md)
+MD=$(addprefix $(MDDIR)/,title.md summary.md paper_list.md toc.md) \
+	$(wildcard $(MDDIR)/chapter*.*.md) \
+	$(MDDIR)/references.md
 PREAMBLE=includes/preamble.tex
 PAPER_PREAMBLE=includes/paper_preamble.tex
 MENDELEY=~/Dropbox/mendeley/Thesis.bib
@@ -31,6 +32,8 @@ BIB=$(REFDIR)/$(OUTPUT).bib
 pdf: $(OUTPUT).pdf
 tex: $(OUTPUT).tex
 doc: $(OUTPUT).docx
+echo:
+	echo $(MD)
 
 $(BIB): $(REFDIR) $(MENDELEY)
 	cp $(MENDELEY) $@
