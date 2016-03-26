@@ -6,7 +6,9 @@ Association studies, in this context, refers to the association of genetic varia
 
 I dare to bet that most people have come into contact with genome wide association studies (GWAS) at one time or another. Whenever you see headlines in the news such as "the obesity gene has been found", it is likely that the underlying study is a GWA study. It is also likely that the sensational headline is not quite true. What researchers have done in cases like this is to collect populations of individuals; those that have the phenotype of interest, such as a disease, and another population of healthy people. The genomes of these individuals are then sequenced or otherwise assayed for genetic variants and the researchers then ask themselves: can we identify variants that can be used to tell the difference between healthy and diseased individuals?
 
-This is usually performed using relatively simple regression models where the disease status acts as the response variable and the genetic variants as the explanatory variable. It is not hard to imagine that this can potentially results in a huge number of tests. In humans, for example, <strong>we expect to find xxx SNPs per xxx bases in the genome [REF]</strong>, and this would result in xxx tests if one were to test the association to the phenotype of interest for each and every genetic variant. This has a few consequences, but mainly it
+This is usually performed using relatively simple regression models where the disease status or the quantitative phenotype acts as the response variable and the genetic variants as the explanatory variable. It is not hard to imagine that this can potentially results in a huge number of tests. In humans, for example, we expect to find xxx SNPs per xxx bases in the genome [REF], and this would result in xxx tests if one were to test the association to the phenotype of interest for each and every genetic variant. This has a few consequences, but mainly it
+
+For example, in the study of human height mentioned previously, more than 250,000 individuals were included in the study [@Wood2014], and a meta-analysis of almost the same magnitude was performed to find a genetic explanation to body mass index [@Speliotes2010], and in both cases the phenotypic variance explained by individual variants was very low (below 1%).
 
 - Regression models: This part of the thesis should include regression models since it is a central analysis method for association studies.
 - In order to connect genotypic variation with phenotypic variation.
@@ -16,6 +18,7 @@ This is usually performed using relatively simple regression models where the di
 - Common disease---common variant hypothesis
 - Infinitesimal model
 	- Diseases are caused by a large number of variants with small effect.
+- Some words on sample sizes and small effects: how do you avoid picking up spurious associations?
 
 ### eQTL mapping
 
