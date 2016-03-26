@@ -32,8 +32,6 @@ BIB=$(REFDIR)/$(OUTPUT).bib
 pdf: $(OUTPUT).pdf
 tex: $(OUTPUT).tex
 doc: $(OUTPUT).docx
-echo:
-	echo $(MD)
 
 $(BIB): $(REFDIR) $(MENDELEY)
 	cp $(MENDELEY) $@
