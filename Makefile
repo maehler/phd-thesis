@@ -4,6 +4,8 @@ MDDIR=markdown
 MD=$(addprefix $(MDDIR)/,title.md summary.md paper_list.md toc.md) \
 	$(wildcard $(MDDIR)/chapter*.*.md) \
 	$(MDDIR)/references.md
+FIGURES=$(addprefix figures/,placeholder.png nmbu_logo.eps \
+	overview.pdf genetic_variation.pdf)
 PREAMBLE=includes/preamble.tex
 PAPER_PREAMBLE=includes/paper_preamble.tex
 MENDELEY=~/Dropbox/mendeley/Thesis.bib
@@ -30,9 +32,9 @@ BIB=$(REFDIR)/$(OUTPUT).bib
 
 .PHONY: pdf tex doc clean
 
-pdf: $(OUTPUT).pdf
+pdf: $(OUTPUT).pdf $(FIGURES)
 tex: $(OUTPUT).tex
-doc: $(OUTPUT).docx
+doc: $(OUTPUT).docx $(FIGURES)
 
 $(BIB): $(REFDIR) $(MENDELEY)
 	cp $(MENDELEY) $@
