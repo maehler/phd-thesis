@@ -27,7 +27,11 @@
 \counterwithout{figure}{chapter}
 
 % Set page size and margins
-\usepackage[paperheight=24cm,paperwidth=17cm,top=1.25in,bottom=1.25in]{geometry}
+\usepackage[paperheight=24cm,paperwidth=17cm,top=1.25in,bottom=1.25in,marginparwidth=2cm]{geometry}
+
+% Margin notes
+\usepackage{marginnote}
+\renewcommand*{\marginfont}{\scriptsize\color{red}\sffamily}
 
 % Chapter styling
 \usepackage[grey]{quotchap}

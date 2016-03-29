@@ -31,3 +31,13 @@ Traditionally, QTL mapping can divided into two categories: linkage mapping and 
 eQTLs are said to act either in *cis* or in *trans*, with *cis*-eQTLs acting directly on gene expression while *trans*-eQTL act indirectly on the associated gene. An example of a *cis* mechanism could be a variant that affects the affinity for transcription factor binding to the promoter of a gene, while a *trans* effect could be something so subtle as affecting the abundance of a certain co-factor that is needed to express the associated gene. From these simple examples it is quite clear that *trans* effects are more subtle than *cis* effects, and this is something that has been observed time and time again [REFS]. In fact, most studies in human only consider *cis* acting variants, or rather, they assume that variants that are in the vicinity of the gene they are acting on are acting in *cis* [REFS]. The case is often that *cis* acting variants are local to the associated gene while *trans* effects are more distant. The decision to use only *cis* acting variants make the computational problem a bit easier since fewer tests have to be performed, and consequently, the multiple testing problem becomes slightly less of a problem since the number of markers considered for each gene is much smaller than the total number of markers in the genome.
 
 Studies of regulatory variation have shown that...
+
+#### Biology gets complicated quickly
+
+- Talk about how multiple causal variants contribute to the expression of a gene with small effect and effectively obscure that the expression is genetically controlled.
+- Torgeir's example of multiple eQTLs that hide the underlying mechanisms.
+
+### Limitations {#sec:limitations}
+
+- Limited range of populations, e.g. we look at Sweden, which is only a small part of the global aspen population.
+- Gene expression and phenotypic sampling is limited to the moment that you sample. The half-life of mRNA is relatively short, and it varies throughout the year, and even throughout the day. If you sample at the wrong time, you might miss the signals that are of significant for the particular trait you are interested in.
