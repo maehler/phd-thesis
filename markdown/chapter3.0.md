@@ -5,6 +5,9 @@
 - Cheaper sequencing costs, new sequencing technologies such as Oxford Nanopore that generates much longer reads compared to the current generation of high throughput sequencing machines, such as Illumina HiSeq. Longer reads mean more accurate expression estimates, and resolution at the transcript scale, meaning we can separate between splice variants of the same gene that potentially can have different function.
 - From the above: Splice QTLs (http://melissagymrek.com/science/2014/11/20/splice-qtls.html)
 - CRISPR/Cas9: The possibility to edit the genome in order to track down the causal variants, and also the possibility to verify potential regulatory variants.
+	- GWASs are limited. They are simply statistical associations.
+	- Gene by gene approaches will not be feasible/possible when a trait is epistatically controlled. This will be possible using CRISPR/Cas9.
+	- Another possibility with this is to perfom allele specific changes.
 - The ultimate goal would be to be able to say that if we change this base from an A to a G, we will modify the regulation of thisnthat and get the exact phenotype that we want.
 - With this comes an avalanche of ethical dilemmas.
 
