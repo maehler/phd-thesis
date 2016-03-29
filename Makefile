@@ -18,7 +18,7 @@ PFLAGS=--latex-engine=pdflatex \
 	--chapters --number-sections -H $(PREAMBLE) \
 	-V documentclass=book \
 	-V fontsize=10pt \
-	--csl citation-styles/chicago-author-date.csl \
+	--csl citation-styles/plos.csl \
 	--bibliography=$(REFDIR)/$(OUTPUT).bib \
 	--include-after-body $(MDDIR)/paper1.md \
 	--include-after-body $(MDDIR)/paper2.md \
