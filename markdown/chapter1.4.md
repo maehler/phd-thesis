@@ -41,3 +41,5 @@ Studies of regulatory variation have shown that...
 
 - Limited range of populations, e.g. we look at Sweden, which is only a small part of the global aspen population.
 - Gene expression and phenotypic sampling is limited to the moment that you sample. The half-life of mRNA is relatively short, and it varies throughout the year, and even throughout the day. If you sample at the wrong time, you might miss the signals that are of significant for the particular trait you are interested in.
+- Rare variants and information content
+- Low effect variants: how many samples do you need? Human height study with 200k samples.

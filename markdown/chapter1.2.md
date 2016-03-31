@@ -35,8 +35,3 @@ Different types of prior knowledge can be incorporated in the variant calling in
 ![Figure explaining the concept of sequence alignment?](figures/placeholder.png){#fig:seqalign width=100%}
 
 <!-- Genetic variants occur with different frequencies within a population. In order to detect rare variants with reasonable statistical power, you need a correspondingly large sample size. In some parts of the literature, rare variants are believed to be the largest contributors to phenotypic variance. -->
-
-These bullet points should probably go under association studies:
-
-- Rare variants and information content
-- Low effect variants: how many samples do you need? Human height study with 200k samples.
