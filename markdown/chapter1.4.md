@@ -34,8 +34,13 @@ Studies of regulatory variation have shown that...
 
 #### Biology gets complicated quickly
 
+As have been stated multiple times already in this thesis, complex traits are the result of the interaction of many genes and regulatory mechanisms. One way you can think of this is as a buffering effect [REF]. If a trait is complex, i.e.\ controlled by a large number of genes, then it will not be possible to modify this trait in a drastic way with a single mutation. \marginnote{This statement is a bit sketchy since I don't know if it is 100\% true. I must look into this more carefully.}Likewise, if a disease is complex, this disease most likely is rare since it is a result of many mutations spread out through the genome [REFS AND EXAMPLES].
+
+In the case of eQTLs, the complexity can also be hidden from the conventional analysis methods. If we assume that genes that are central in a co-expression network are important, i.e.\ they have a central role in making the organism function, for example genes involved in the cell cycle, they are likely to be controlled by many eQTLs to offer buffering of the regulation of these genes. The concept of genetic buffering is not something new...
+
 - Talk about how multiple causal variants contribute to the expression of a gene with small effect and effectively obscure that the expression is genetically controlled.
 - Torgeir's example of multiple eQTLs that hide the underlying mechanisms.
+
 
 ### Limitations {#sec:limitations}
 
