@@ -20,6 +20,9 @@ As stated in @sec:genetic-variation, the regulatory genome has gained more and m
 - Long range regulatory elements
 - Direct and indirect effects on gene expression
 
+- Genome duplication and functional redundancy. With a genome duplication, if the paralogs don't diverge, will result in functional redundancy. This will then contribute to the perceived complexity as well since the traditional loss-of-function screens will not give the expected results.
+- One example of the above is the regulation of secondary cell wall biosynthesis [@Taylor-Teeples2014].
+
 ### Co-expression networks
 
 When two genes are expressed at the same time, regardless of environmental conditions or other secondary factors, they are said to be co-expressed. Co-expression can be seen as a manifestation of the underlying regulatory network---if two genes are regulated by the same factors, chances are that these genes also are co-expressed. In a mathematical framework, a co-expression network can be represented as a graph structure where the vertices are genes and the edges represent the degree of co-expression ([@fig:co-expression]). The consensus from a large number of studies is that co-expression networks (and biological networks in general) often are scale-free. What this means is that there are few genes with many connections to other genes (high degree) in the network and more genes with few connections (low degree) [@Barabasi1999].
