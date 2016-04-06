@@ -21,8 +21,7 @@ Humans and chimpanzees are said to share as much as 99% of the coding regions of
 - Genome duplications common in plants, talk a bit about this.
 - What implications will a duplicated genome have? Evolutionary speed increased because of more degrees of freedom?
 
-\marginnote{Have lower "resolution" and show and example of a gene duplication. Don't show introns.}
-![Schematic example of genetic variation. Each of the four diploid individuals has two alleles for each locus representing intergenic sequences (blue), long-range regulatory elements (red), promoters (yellow), and genes (green). Polymorphisms where one of the alleles does not match the reference is indicated by purple lines.](figures/genetic_variation.pdf){#fig:genetic-variation width=100%}
+![Schematic example of genetic variation. Each of the four diploid individuals has two alleles for each locus representing intergenic sequences (blue), long-range regulatory elements (red), promoters (yellow), and genes (green). Polymorphisms where one of the alleles does not match the reference is indicated by black lines. A gene duplication is illustrated as well where individual three has a duplication of both alleles while individual four only has a duplication of one of the alleles.](figures/genetic_variation.pdf){#fig:genetic-variation width=100%}
 
 ### Quantifying genetic variation
 
