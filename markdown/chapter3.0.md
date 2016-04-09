@@ -8,6 +8,8 @@
 	- GWASs are limited. They are simply statistical associations.
 	- Gene by gene approaches will not be feasible/possible when a trait is epistatically controlled. This will be possible using CRISPR/Cas9.
 	- Another possibility with this is to perfom allele specific changes.
+	- There is already software available for designing guide RNAs that are used for the actual genome editing process (?) [@Heigwer2016; @Chari2015; @Heigwer2014; @MacPherson2015b; @Montague2014; @Wong2015].
+	- Great resource on the history and the possibilities with CRISPR/Cas9 on https://www.addgene.org/crispr/guide/.
 - The ultimate goal would be to be able to say that if we change this base from an A to a G, we will modify the regulation of thisnthat and get the exact phenotype that we want.
 - With this comes an avalanche of ethical dilemmas.
 
