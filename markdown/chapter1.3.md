@@ -27,6 +27,16 @@ Most of the genes get transcribed at some point in the lifetime of an organism, 
 - Genome duplication and functional redundancy. With a genome duplication, if the paralogs don't diverge, will result in functional redundancy. This will then contribute to the perceived complexity as well since the traditional loss-of-function screens will not give the expected results.
 - One example of the above is the regulation of secondary cell wall biosynthesis [@Taylor-Teeples2014].
 
+### Quantifying gene expression
+
+Similarly to genome sequencing, the estimation of gene expression has gotten a big boost by the development of high-throughput sequencing. In the case of gene expression, instead of extracting and sequencing the DNA, the mRNA is extracted and sequenced---RNA-Sequencing. This effectively creates a snapshot of the total mRNA abundance---the transcriptome---in the tissue of interest at the time of extraction. The last part of this sentence is something that is very important to consider, and I will come back to this in [@sec:limitations]. With the previously very popular microarray technology, this was also possible, but limited to the genes that were included on the array. With RNA-Sequencing, *all* mRNA in the cell can, theoretically, be sequenced, regardless of whether the gene expressing it is known or not.
+
+The data from RNA-Sequencing is similar to that from DNA-Sequencing in that it consists of sequence reads based on a template sequence. In order to quantify gene expression these reads are aligned to either a reference genome, or a reference transcriptome. In addition to being able to measure the expression of all genes and not only known genes, the dynamic range is significantly wider in RNA-Sequencing compared to microarrays since the signal does not get saturated, and the noise levels are lower [@Wang2009].
+
+- Computational challenges
+	- Gene duplications -> paralogs -> multi-mapping reads
+- Differential expression: in its own section, only briefly, or not at all?
+
 ### Co-expression networks
 
 When two genes are expressed at the same time, regardless of environmental conditions or other secondary factors, they are said to be co-expressed. Co-expression can be seen as a manifestation of the underlying regulatory network---if two genes are regulated by the same factors, chances are that these genes also are co-expressed. In a mathematical framework, a co-expression network can be represented as a graph structure where the vertices are genes and the edges represent the degree of co-expression ([@fig:co-expression]). The consensus from a large number of studies is that co-expression networks (and biological networks in general) often are scale-free. What this means is that there are few genes with many connections to other genes (high degree) in the network and more genes with few connections (low degree) [@Barabasi1999].
@@ -39,13 +49,3 @@ Co-expression networks have also been found to be modular, that is, there are su
 \marginnote{These two paragraphs need some more work.}Studies have shown that co-expression networks are able to capture biologically relevant gene expression signatures. One example is a study performed in lake whitefish (\textit{Coregonus clupeaformis}) where researchers found network modules that were correlated with dwarfism among these fish [@Filteau2013]. Another example is a cancer study where gene expression signatures common across tumour types were identified using a co-expression network approach [@Doig2013].
 
 As previously stated, the co-expression network is a manifestation of the underlying regulatory network, but it is also important to remember that the co-expression network is a very simple representation of the correlation in gene expression levels. It is not necessarily a representation of the corresponding protein abundance, and it is not given that two proteins that *can* interact *will* interact just because their corresponding transcripts are expressed [@Vogel2012].
-
-### Quantifying gene expression
-
-Similarly to genome sequencing, the estimation of gene expression has gotten a big boost by the development of high-throughput sequencing. In the case of gene expression, instead of extracting and sequencing the DNA, the mRNA is extracted and sequenced---RNA-Sequencing. This effectively creates a snapshot of the total mRNA abundance---the transcriptome---in the tissue of interest at the time of extraction. The last part of this sentence is something that is very important to consider, and I will come back to this in [@sec:limitations]. With the previously very popular microarray technology, this was also possible, but limited to the genes that were included on the array. With RNA-Sequencing, *all* mRNA in the cell can, theoretically, be sequenced, regardless of whether the gene expressing it is known or not.
-
-The data from RNA-Sequencing is similar to that from DNA-Sequencing in that it consists of sequence reads based on a template sequence. In order to quantify gene expression these reads are aligned to either a reference genome, or a reference transcriptome. In addition to being able to measure the expression of all genes and not only known genes, the dynamic range is significantly wider in RNA-Sequencing compared to microarrays since the signal does not get saturated, and the noise levels are lower [@Wang2009].
-
-- Computational challenges
-	- Gene duplications -> paralogs -> multi-mapping reads
-- Differential expression: in its own section, only briefly, or not at all?
