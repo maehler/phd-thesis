@@ -22,7 +22,7 @@ For example, in the study of human height mentioned previously, more than 250,00
 
 ![Simple schematic of the principles of association studies (GWAS, eQTL mapping) in a diploid organism.](figures/placeholder.png){#fig:genetic-association width=100%}
 
-### eQTL mapping
+### eQTL mapping {#sec:eqtl-mapping}
 
 Expression quantitative trait locus (eQTL) mapping is related to the traditional GWAS in the previous section, but the phenotypes here are of the more abstract kind; something you cannot observe directly, namely gene expression. Also, the problems of GWAS get even bigger for this type of association study since not only do we have a large number of genetic variants, we also have a large number of phenotypes. The phenotypes in this case is gene expression. If we are to consider the expression of every gene in the genome together with all the genetic variants in the genome we get, for humans, approximately xxx tests have to be performed. Not only does this results in a multiple testing problem, but it also causes purely computational problems. Fifteen years ago, this problem was \textcolor{red}{infeasible to tackle}, but with the increase in computational power coupled with clever methods [@Shabalin2012] this is now relatively easy to do.
 

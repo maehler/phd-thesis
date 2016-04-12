@@ -41,7 +41,7 @@ One possible way around this problem is to look at the expression of exons, and 
 
 - Differential expression: in its own section, only briefly, or not at all?
 
-### Co-expression networks
+### Co-expression networks {#sec:coexpression}
 
 When two genes have similar expression profiles they are said to be co-expressed. Co-expression can be seen as a manifestation of the underlying regulatory network---if two genes are regulated by the same factors, chances are that these genes also are co-expressed. In contrast to the regulatory network, the co-expression network is very simple to construct where the simplest approach would be to calculate the correlation between all pairs of genes. A co-expression network can be represented as a graph structure where the vertices are genes and the edges represent the degree of co-expression ([@fig:co-expression]). The consensus from a large number of studies is that co-expression networks (and biological networks in general) often are scale-free. What this means is that there are few genes with many connections to other genes (high degree centrality) in the network and more genes with few connections (low degree centrality) [@Barabasi1999].
 If the network is disturbed by random perturbations, such as mutations, genes with a high degree centrality are less likely to be targeted, due to their low frequency in the network [@Whitacre2012]. Consequently, a scale-free network will be robust against random perturbations.
