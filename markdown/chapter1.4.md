@@ -32,6 +32,8 @@ eQTLs are said to act either in *cis* or in *trans*, with *cis*-eQTLs acting dir
 
 Studies of regulatory variation have shown that...
 
+- Local/distant, cis/trans: differences, and how you can determine whether an eQTL acts in cis or trans. Cis-effects will be allele specific while trans-effects are not. Question is if I should mention this at all...
+
 #### Biology gets complicated quickly
 
 As have been stated multiple times already in this thesis, complex traits are the result of the interaction of many genes and regulatory mechanisms. One way you can think of this is as a buffering effect [REF]. If a trait is complex, i.e.\ controlled by a large number of genes, then it will not be possible to modify this trait in a drastic way with a single mutation. \marginnote{This statement is a bit sketchy since I don't know if it is 100\% true. I must look into this more carefully.}Likewise, if a disease is complex, this disease most likely is rare since it is a result of many mutations spread out through the genome [REFS AND EXAMPLES].
