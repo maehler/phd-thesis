@@ -21,4 +21,6 @@
 - Talk about the potential for applications for this technology, i.e.\ new tree/crop variants that can handle climate change; drought, salinity, improved traits
 	- With this the mandatory discussion about GMO resistance comes as well. I should say a few words about it, but don't linger on it.
 
+- Mention briefly that the role of epigenetics hasn't been included at all in the thesis, and that this is something that can have a huge impact [@Farh2015].
+
 - These are exciting times that we are living in. On the other hand, looking back at the historical examples in this thesis, I am sure that this sentence has been uttered in each and every one of these. In short, biology is exciting!
