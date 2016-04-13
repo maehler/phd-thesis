@@ -1,7 +1,8 @@
 PC=pandoc
 
 MDDIR=markdown
-MD=$(addprefix $(MDDIR)/,title.md summary.md paper_list.md toc.md) \
+MD=$(addprefix $(MDDIR)/,title.md summary.md acknowledgements.md \
+	paper_list.md toc.md) \
 	$(wildcard $(MDDIR)/chapter*.*.md) \
 	$(MDDIR)/references.md
 FIGURES=$(addprefix figures/,placeholder.png nmbu_logo.eps \
