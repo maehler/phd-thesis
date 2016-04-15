@@ -8,7 +8,7 @@
 	- GWASs are limited. They are simply statistical associations.
 	- Gene by gene approaches will not be feasible/possible when a trait is epistatically controlled. This will be possible using CRISPR/Cas9.
 	- Another possibility with this is to perfom allele specific changes.
-	- There is already software available for designing guide RNAs that are used for the actual genome editing process (?) [@Heigwer2016; @Chari2015; @Heigwer2014; @MacPherson2015b; @Montague2014; @Wong2015].
+	- There is already software available for designing guide RNAs that are used for the actual genome editing process (?) [@Heigwer2016; @Chari2015; @Heigwer2014; @MacPherson2015; @Montague2014; @Wong2015].
 	- Great resource on the history and the possibilities with CRISPR/Cas9 on https://www.addgene.org/crispr/guide/.
 - The ultimate goal would be to be able to say that if we change this base from an A to a G, we will modify the regulation of thisnthat and get the exact phenotype that we want.
 - With this comes an avalanche of ethical dilemmas.
@@ -18,7 +18,7 @@
 - Catch 22 when it comes to small effects. We need large sample sizes in order to detect them, and when we have detected them, we instead have a huge combinatorics problem that we simply cannot solve without any prior information.
 
 - How can these types of studies help understand the emergence of natural variation?
-- Talk about the potential for applications for this technology, i.e.\ new tree/crop variants that can handle climate change; drought, salinity, improved traits
+- Talk about the potential for applications for this technology, i.e.\ new tree/crop varieties that can handle climate change; drought, salinity, improved traits
 	- With this the mandatory discussion about GMO resistance comes as well. I should say a few words about it, but don't linger on it.
 
 - Mention briefly that the role of epigenetics hasn't been included at all in the thesis, and that this is something that can have a huge impact [@Farh2015].
