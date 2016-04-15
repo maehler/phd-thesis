@@ -32,7 +32,7 @@ PAPERMD=$(addprefix $(MDDIR)/, paper1.md paper2.md)
 OUTPUT=thesis
 BIB=$(REFDIR)/$(OUTPUT).bib
 
-.PHONY: pdf tex doc clean
+.PHONY: pdf tex doc clean dropbox
 
 pdf: $(OUTPUT).pdf
 tex: $(OUTPUT).tex
@@ -46,6 +46,9 @@ $(OUTPUT).%: $(PREAMBLE) $(BIB) $(MD) $(PAPERMD) $(FIGURES)
 
 $(REFDIR):
 	mkdir -p references
+
+dropbox: pdf doc
+	cp $(OUTPUT).pdf $(OUTPUT).docx ~/Dropbox/projects/systemsgenetics/thesis/
 
 clean:
 	rm -f $(OUTPUT).*
