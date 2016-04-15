@@ -7,7 +7,8 @@ MD=$(addprefix $(MDDIR)/,title.md summary.md acknowledgements.md \
 	$(MDDIR)/references.md
 FIGURES=$(addprefix figures/,placeholder.png nmbu_logo.eps \
 	overview.pdf genetic_variation.pdf complexity.pdf \
-	transcription.pdf associations.pdf coexpression.pdf)
+	transcription.pdf associations.pdf coexpression.pdf \
+	data_integration.pdf)
 PREAMBLE=includes/preamble.tex
 PAPER_PREAMBLE=includes/paper_preamble.tex
 MENDELEY=~/Dropbox/mendeley/Thesis.bib
