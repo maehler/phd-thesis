@@ -6,7 +6,8 @@ MD=$(addprefix $(MDDIR)/,title.md summary.md acknowledgements.md \
 	$(wildcard $(MDDIR)/chapter*.*.md) \
 	$(MDDIR)/references.md
 FIGURES=$(addprefix figures/,placeholder.png nmbu_logo.eps \
-	overview.pdf genetic_variation.pdf)
+	overview.pdf genetic_variation.pdf complexity.pdf \
+	transcription.pdf associations.pdf coexpression.pdf)
 PREAMBLE=includes/preamble.tex
 PAPER_PREAMBLE=includes/paper_preamble.tex
 MENDELEY=~/Dropbox/mendeley/Thesis.bib
@@ -33,14 +34,14 @@ BIB=$(REFDIR)/$(OUTPUT).bib
 
 .PHONY: pdf tex doc clean
 
-pdf: $(OUTPUT).pdf $(FIGURES)
+pdf: $(OUTPUT).pdf
 tex: $(OUTPUT).tex
-doc: $(OUTPUT).docx $(FIGURES)
+doc: $(OUTPUT).docx
 
 $(BIB): $(REFDIR) $(MENDELEY)
 	cp $(MENDELEY) $@
 
-$(OUTPUT).%: $(PREAMBLE) $(BIB) $(MD) $(PAPERMD)
+$(OUTPUT).%: $(PREAMBLE) $(BIB) $(MD) $(PAPERMD) $(FIGURES)
 	$(PC) $(PFLAGS) $(MD) -o $@
 
 $(REFDIR):
