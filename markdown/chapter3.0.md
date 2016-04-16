@@ -1,5 +1,7 @@
 # Discussion
 
+In order to decipher the emergence of complex traits, the most common approaches that are used today, such as GWAS and eQTL mapping, are not enough by themselves. To be able to find the factors that contribute to complex traits, all layers of regulation must be taken into account in one way or another. However, this in not a trivial task. Firstly, the limitations for the individual data types must be taken into account. Secondly, the data must be integrated in a way that maximises the information we are able to get out, while at the same time minimising the number of false associations.
+
 ## Future perspectives
 
 - Cheaper sequencing costs, new sequencing technologies such as Oxford Nanopore that generates much longer reads compared to the current generation of high throughput sequencing machines, such as Illumina HiSeq. Longer reads mean more accurate expression estimates, and resolution at the transcript scale, meaning we can separate between splice variants of the same gene that potentially can have different function.
