@@ -12,22 +12,6 @@ Transcription factors play one role in the regulation of gene expression. They c
 
 Most of the genes get transcribed at some point in the lifetime of an organism, but this could possibly be at a single time point in a specific tissue. Based on this, it is easy to see that there must be a very complex regulatory system behind this. Transcription factors have to be expressed, and they in turn regulate the expression of some other gene that in turn might act in a feedback loop to regulate the expression of itself. This quickly turns into a complex network that is not easy to disentangle. To further complicate things, even if all factors needed to transcribe a particular gene are available, the gene might still not be expressed if the 3D structure of the DNA is not arranged properly. In order for e.g.\ enhancers to act properly, they need to be physically close to the gene it acts upon ([@fig:gene-expression]). Due to this complexity most studies of regulatory networks have so far been limited to a smaller sets of genes [@Chai2014].
 
-- Take some examples of regulatory network studies from @Chuong2016.
-
-- The regulatory genome consists of a wide range of regulatory elements that have been discovered to date. The ones that have been known the longest are the promoters; genes upstream from genes that regulates the gene directly, i.e.\ in *cis*.
-
-- Gene expression is costly; genes should only be expressed when needed.
-- Long range regulatory elements
-- Direct and indirect effects on gene expression
-
-- Mutations in transcription factors results in modified DNA binding properties [@Barrera2016]. This deals with coding variants, but it might be a good example showing the complexity of gene regulation. You can have a variant in a TF the modifies gene expression of many genes, or you can have a variant in the promoter of a gene that affects the expression of that gene only (if that gene in turn isn't regulating the expression of other genes). To complicate matters a bit more, a gene can have multiple transcription factors or repressors of transcription that together act in a combinatorial manner. With the additional noise that comes with all types of data, this is really difficult to disentangle. Modern sequencing technologies have bridged this gap somewhat, and the noise level in gene expression data has decreased.
-
-- Mutations in binding sites can be investigated using ChIP-Seq. The downside to this is that you have to know what protein, i.e.\ transcription factor you are targeting; if you only know the binding site it is more difficult.
-- Post-transcriptional regulation?
-
-- Genome duplication and functional redundancy. With a genome duplication, if the paralogs don't diverge, will result in functional redundancy. This will then contribute to the perceived complexity as well since the traditional loss-of-function screens will not give the expected results.
-- One example of the above is the regulation of secondary cell wall biosynthesis [@Taylor-Teeples2014].
-
 ### Quantifying gene expression
 
 Similarly to genome sequencing, the estimation of gene expression has gotten a big boost by the development of high-throughput sequencing. In the case of gene expression, instead of extracting and sequencing the DNA, the mRNA is extracted and sequenced---RNA-Sequencing. This effectively creates a snapshot of the total mRNA abundance---the transcriptome---in the tissue of interest at the time of extraction. The last part of this sentence is something that is very important to consider, and I will come back to this in [@sec:limitations]. With the previously very popular microarray technology, this was also possible, but limited to the genes that were included on the array. With RNA-Sequencing, *all* mRNA in the cell can, theoretically, be sequenced, regardless of whether the gene expressing it is known or not.
