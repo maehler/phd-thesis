@@ -20,6 +20,6 @@ These are my contributions to the papers included in this thesis.
 \begin{enumerate}[I.]
 \item Performed all analysis, implemented the web application, and drafted the paper.
 \item Ran and designed the support vector machine analysis and wrote the corresponding parts of the paper.
-\item Performed the eQTL mapping, constructed the co-expression network, performed all analyses related to these, and drafted the paper.
-\item Performed GWA and...
+\item Performed the eQTL mapping, constructed the co-expression network, performed all analyses related to these, and drafted the manuscript.
+\item Performed GWA and all gene expression related analysis, and drafted the manuscript.
 \end{enumerate}
