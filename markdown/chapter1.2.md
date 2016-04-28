@@ -28,6 +28,4 @@ The process of sequencing an individual involves extracting the DNA from the tis
 
 Different types of prior knowledge can be incorporated in the variant calling in order to increase precision, such as known variants from databases such as dbSNP [@Sherry2001]. Working with non-model, or even non-human organisms often mean that these types of resources are not available, at least not in the same extent.
 
-![Figure explaining the concept of sequence alignment?](figures/placeholder.png){#fig:seqalign width=100%}
-
 <!-- Genetic variants occur with different frequencies within a population. In order to detect rare variants with reasonable statistical power, you need a correspondingly large sample size. In some parts of the literature, rare variants are believed to be the largest contributors to phenotypic variance. -->
