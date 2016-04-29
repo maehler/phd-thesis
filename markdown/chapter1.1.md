@@ -6,4 +6,4 @@ In the case of Mendel's pea plants, the traits were very visible and the differe
 
 @Fig:overview shows an overview of how information travels from the DNA via RNA to proteins and metabolites and how these interact to give rise to complex phenotypes. This introduction will go through this figure one concept at a time and explain the underlying biology, the data we retrieve from this biology, and finally, methods used to analyse the data.
 
-![The different types of data and the technologies used to measure/observe them.](figures/overview.pdf){#fig:overview width=100%}
+![An overview of the different types of data that has been used in this thesis. As the foundation we have the genome sequence with its genes and variation. This gives rise to complex traits by expression genes that in turn interact with each other in biochemical pathways that in the end can be observed as, for example, leaf shape.](figures/overview.pdf){#fig:overview width=100%}
