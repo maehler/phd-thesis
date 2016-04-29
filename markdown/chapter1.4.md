@@ -44,6 +44,8 @@ Finally, the significance of the association is the probability of the slope of 
 
 ### eQTL mapping {#sec:eqtl-mapping}
 
+- Define systems genetics here
+
 Expression quantitative trait locus (eQTL) mapping is related to the traditional GWAS, as just described, but the phenotypes here are of the more abstract kind, namely gene expression.
 The problems of GWAS get even bigger for this type of association study since not only do we have a large number of genetic variants, we also have a large number of phenotypes.
 The phenotypes in this case are measures of gene expression for every transcribed gene.
@@ -112,3 +114,9 @@ The expression of G1 only depends on Q1, and this eQTL is thus detected since th
 Due to the dual regulators and eQTLs for R3, there is no perfect relationship between the eQTLs Q2 and Q3 with either R3 or G2.
 The regulation of G3 is even more complicated where R3 needs to be expressed, and at the same time Q4 must not block the signal.
 No perfect relationship between G3 and any of the eQTLs exist even though Q4 is *cis*-acting and Q2 and Q3 are both *trans*-acting.](figures/complexity.pdf){#fig:complexity width=100%}
+
+### Quantitative genetics
+
+- Not the main focus on the thesis.
+- Put the variants described above in an evolutionary context.
+- The genome is not static. The mutations we are seeing are probably going somewhere, and there are methods available for investigating this.

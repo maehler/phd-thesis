@@ -27,6 +27,9 @@ It is also very difficult to predict the effect of a single mutation in one of t
 One recent study characterised the effect on gene expression by somatic mutations in cancer tumours and found that many of the genes displayed altered regulation as a result of mutations in transcription factor binding sites [@Mathelier2015].
 This study emphasises the important role that the regulatory genome plays in complex disease.
 
+- Briefly describe the most common approach for motif identification.
+- Mention ChIP-Seq as well.
+
 Transcription factors play one role in the regulation of gene expression.
 They can either activate or repress gene expression, and in many cases several transcription factors, both activators and repressors, are involved in determining the final regulatory output for a gene, i.e.\ how highly expressed it will be.
 Combinatorial relationships make it very difficult to test, or even computationally explore, all regulatory mechanisms in order to explain the expression patterns of a gene.
