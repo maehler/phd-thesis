@@ -7,6 +7,7 @@ A single analysis method, e.g.\ GWA, will simply not be able to capture the whol
 It will generate a genomic variant that is associated with your trait of interest, but everything in between will essentially be a black box.
 By integrating different types of data, the black box can be illuminated.
 Furthermore, combining data can constrain our search space an thus alleviate some of the problems with computational power and multiple testing discussed previously.
+The approach of combining different levels of omics data is known as systems genetics [@Civelek2013],
 
 Most GWAS variants found so far are located in non-coding regions of the genome, and it is thus hard to assign function to these variants.
 One approach to annotate these non-coding variants could be to combine GWA with eQTL mapping.

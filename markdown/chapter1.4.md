@@ -46,8 +46,6 @@ Finally, the significance of the association is the probability of the slope of 
 
 ### eQTL mapping {#sec:eqtl-mapping}
 
-- Define systems genetics here
-
 Expression quantitative trait locus (eQTL) mapping is related to the traditional GWAS, as just described, but the phenotypes here are of the more abstract kind, namely gene expression.
 The problems of GWAS get even bigger for this type of association study since not only do we have a large number of genetic variants, we also have a large number of phenotypes.
 The phenotypes in this case are measures of gene expression for every transcribed gene.
