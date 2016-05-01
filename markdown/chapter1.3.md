@@ -43,10 +43,10 @@ Transcription factors have to be expressed, and they in turn regulate the expres
 This quickly scales to form a complex network that is not easy to disentangle.
 To further complicate things, even if all factors needed to transcribe a particular gene are available, the gene might still not be expressed if the 3D structure of the DNA is not arranged in a configuration that allows access to the transcription factor binding sites, for example.
 In order for e.g.\ enhancers to act properly, they need to be physically close to the gene it acts upon ([@fig:gene-expression]).
+The 3D structure of DNA is part of what is known as epigenetics; the heritable changes in gene expression that are not caused by changes in DNA sequence [@Richards2006].
+Another type of epigenetic modification that influences gene expression is the methylation of promoter regions which can block transcription factors from binding [@Siegfried1999a; @Medvedeva2014].
 
-- Good place to introduce epigenetics. Talk about methylation and how it can block binding sites. Also mention the 3D structure of DNA and how this is controlled by epigenetics.
-
-Due to this complexity, most studies of regulatory networks have so far been limited to smaller sets of genes [@Chai2014].
+Due to this combined complexity, most studies of regulatory networks have so far been limited to smaller sets of genes [@Chai2014].
 
 ### Quantifying gene expression
 
