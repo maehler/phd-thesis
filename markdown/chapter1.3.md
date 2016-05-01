@@ -27,8 +27,10 @@ It is also very difficult to predict the effect of a single mutation in one of t
 One recent study characterised the effect on gene expression by somatic mutations in cancer tumours and found that many of the genes displayed altered regulation as a result of mutations in transcription factor binding sites [@Mathelier2015].
 This study emphasises the important role that the regulatory genome plays in complex disease.
 
-- Briefly describe the most common approach for motif identification.
-- Mention ChIP-Seq as well.
+There are several approaches for identifying regulatory motifs, and perhaps the most common method is to align sequences thought to have a regulatory function and identify conserved regions among these sequences.
+Sequences to consider could be groups of genes with similar expression profiles (co-expressed genes) or genes involved in the same biochemical pathway.
+An approach in selecting representative sets of sequences that increases detection power involves including multiple related species in addition to the species studied, so called phylogenetic footprinting [@Tagle1988; @Blanchette2002].
+The promoter regions of orthologous genes---the same gene in different species ---are aligned, and assuming that regions with a regulatory function accumulate mutations slower than surrounding, non-function, regions, conserved regions are identified.
 
 Transcription factors play one role in the regulation of gene expression.
 They can either activate or repress gene expression, and in many cases several transcription factors, both activators and repressors, are involved in determining the final regulatory output for a gene, i.e.\ how highly expressed it will be.
