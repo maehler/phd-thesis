@@ -12,9 +12,9 @@ We collected 371 microarray experiments from public sources and constructed a co
 As mentioned in @sec:coexpression, a co-expression network is simply a manifestation of the underlying regulatory network, so in order to form a link between co-expression and co-regulation, potential regulatory motifs were identified using phylogenetic footprinting.
 This method is based on the alignment of regulatory regions of orthologous genes from related organisms.
 In this case, 22 genomes from the Chroococcales taxon were used for the phylogenetic footprinting, and this resulted in a set of 4,977 potential regulatory motifs.
-In the paper we show that co-expression network neighbourhoods of regulatory proteins were enriched for regulatory proteins, thus providing a possible regulatory link between these regulators and the co-expressed genes.
-The user of the application can then investigate whether their gene set of interest is co-expressed, and whether this to some extent can be explained by shared regulatory motifs.
-In order to make the application as useful as possible, the gene identifiers used are the well established identifiers from CyanoBase (\url{http://genome.microbedb.jp/cyanobase/}; @Nakao:2010bo).
+In the paper we show that co-expression network neighbourhoods of regulatory proteins were enriched for regulatory motifs, thus providing a possible regulatory link between these regulators and the co-expressed genes.
+The user of the web application can then investigate whether their gene set of interest is co-expressed, and whether this to some extent can be explained by shared regulatory motifs.
+In order to make the application as useful as possible, the gene identifiers used were the well established identifiers from CyanoBase (\url{http://genome.microbedb.jp/cyanobase/}; @Nakao:2010bo).
 
 As part of a sanity check of the integrated data, a couple of case studies were conducted where both previously published results were confirmed, and also potentially novel regulatory relationships were presented.
 
@@ -34,7 +34,7 @@ In addition to the more classical phenotypes, differences in gene expression wer
 The rationale behind the sliding window approach comes from the fact that there is a consensus that there is a sex determining locus.
 This locus might contain more than one gene, and individual genes might not be able to fully explain the sex division.
 However, in this case the SVM analysis did not result in any gene combinations that could predict sex any better than single genes.
-Only two genes were found to be significantly differentially expressed between the sexes, and one of those was located in a region previously linked to sex determination.
+Only two individual genes were found to be significantly differentially expressed between the sexes, and one of those was located in a region previously linked to sex determination.
 As reported by [@Pakull2015], and independently discovered by us, part of this gene is deleted in females and thus gives rise to the difference in expression between sexes.
 
 ## Paper III --- Genetic basis of gene expression variation
@@ -55,5 +55,5 @@ Due to a relatively small population size, we are not able to detect these small
 
 ## Paper IV --- Leaf shape GWAS and data integration
 
-In contrast to paper II and paper III where a one-gene-at-a-time (or mostly pairs of genes) approach was followed, paper IV puts more emphasis on the complexity of leaf traits as they emerge from the interaction of many genes.
+In contrast to paper II and paper III where a one-gene-at-a-time (or at most, pairs of genes) approach was followed, paper IV puts more emphasis on the complexity of leaf traits as they emerge from the interaction of many genes.
 Previous studies of leaf shape has shown that it serves as a good proxy for historical temperature [@Royer2005], and that leaf shape also is highly polygeneic [@Tian2011].
