@@ -131,13 +131,9 @@ By having more redundancy, these genes will not be affected as easily by random 
 
 ### Genetic variants in an evolutionary context
 
-- Not the main focus on the thesis.
-- Put the variants described above in an evolutionary context.
-- The genome is not static. The mutations we are seeing are probably going somewhere, and there are methods available for investigating this.
-- Heritability, Qst? G3 in [@fig:complexity] is a nice example of a gene with potentially high heritable expression, but it is not detected by traditional eQTL mapping.
-
 The genetic variants that are used for association mapping are not static.
 From a population point of view they are going somewhere.
-They could slowly be removed from the population if they have a detrimental effect on reproductive fitness, for example (negative selection), or they could be kept in the population in order to maintain genetic diversity (neutral selection).
-Quantitative genetics is not the main focus of this thesis, but it is still an integral part.
-It can be used to put the genetic variation into an evolutionary context that can help explain where these variants are coming from and where they are going.
+They could slowly be removed from the population if they have a detrimental effect on reproductive fitness (negative or purifying selection), or they could actively be kept in the population in order to maintain genetic diversity (balancing selection), or they could be under no selection pressure and just drift through the population (genetic drift).
+These concepts can be used to put the genetic variation into an evolutionary context that can help explain where these variants are coming from and where they are going.
+In the context of eQTLs, a recent study showed signs of eQTLs being under negative selection and that the effect size of the eQTLs were negatively correlated with their frequency [@Josephs2015].
+
