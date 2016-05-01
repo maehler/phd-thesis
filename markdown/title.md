@@ -1,13 +1,13 @@
 \begin{titlepage}
     \begin{center}
 
-    \large{\textbf{{Gene regulation and the emergence of phenotypes---a network approach}}}
+    \Large{\textbf{{Gene regulation and the emergence of phenotypes---a network approach}}}
 
     \vspace{1.5cm}
 
     \parbox{0.7\textwidth}{
         \centering
-        \normalsize{Norwegian title}
+        \normalsize{Genregulering og emergens av fenotyper---et nettverksstudie}
     }
 
     \vspace{1.5cm}
