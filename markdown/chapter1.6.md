@@ -10,10 +10,10 @@ When it comes to geographical range, we are limited to the range of sampling, an
 For example, in papers III and IV, we were limited to the range of Sweden, while aspens are spread out across more or less the whole northern hemisphere.
 In that context, Sweden is a very small part of the total distribution range, and it might not be very surprising that we did not see any pronounced population structure in the data.
 
-In order to have enough statistical power in association studies large sample sizes are needed.
+In order to have enough statistical power in association studies, large sample sizes are needed.
 A problem with using forest trees is that it is very expensive and time consuming to maintain a large population of trees.
 Ideally, we want to grow them in a controlled environment in order to minimise environmental effects, but this is clearly not a practical approach.
-In the study of human height that has been mentioned several times in this thesis, they used more than 250,000 individuals, but this was a meta-study [@Wood2014].
+In the study of human height that has been mentioned several times in this thesis, they used more than 250,000 individuals, but this was a meta-study [@Wood2014], i.e.\ a study collecting data from previous studies, avoiding the hassle of collecting the data themselves.
 Even so, a meta-study of the same magnitude in *P.\ tremula* is not possible today, since the amount of data generated is not even close to that of human studies.
 The importance of good annotations such as previous efforts to elucidate regulatory mechanisms also play a big role [@Mathelier2015].
 As of yet, most of these efforts have been directed towards human studies (e.g.\ ENCODE [@Feingold2004]), quite understandably.
@@ -23,8 +23,13 @@ For example, the fruit fly *Drosophila melanogaster* has been used as a model or
 
 The results of associations studies are just that---associations.
 A genetic variant that is associated with a particular phenotype is not necessarily the causative variant.
-It might be that it in turn is associated with the causal variant through linkage disequilibrium (LD), i.e.\ the non-random association of alleles at different loci.
-In the case of plants a variant in LD with the causal variant might be good enough in many cases where marker assisted selection can be employed in breeding.
+It might be that it in turn is associated with the causal variant through linkage disequilibrium (LD).
+In the case of plants, a variant in LD with the causal variant might be good enough in many cases where marker assisted selection can be employed in breeding.
 However, if more control of the phenotype is needed, a variant in LD is not of much help.
-If the variant is no causal, it is likely that mutating this position will not result in any phenotypic change.
-Strategies to filter out the causal variants from association studies include integrating different types of data in order to single out the most likely candidate genes or loci, but also transparency in when it comes to publication in order to minimise confirmation bias and consequently the number of false positives in circulation [@MacArthur2014].
+If the variant is not causal, it is likely that mutating this position will not result in a corresponding change in phenotype.
+Strategies to filter out the causal variants from association studies include integrating different types of data in order to single out the most likely candidate genes or loci, but there are several challenges associated with this kind of data integration.
+The individual data sets themselves have their own issues to begin with.
+There are systematic biases, normalisation issues, and correlation structures that are not trivial to deal with, and that can eat up a considerable portion of resources available to a project.
+Something a bit more abstract that could help with finding causal variants
+is transparency when it comes to publication.
+This could potentially help minimise confirmation bias and consequently the number of false positives in circulation [@MacArthur2014].
