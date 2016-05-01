@@ -15,8 +15,8 @@ This is a simplified view of how coding regions are transcribed.](figures/transc
 
 ### Regulation of gene expression {#sec:regulation-of-gene-expression}
 
-As stated in @sec:genetic-variation, the regulatory genome has received ever more and more attention throughout the last 15 years.
-New studies increasingly identify examples where protein sequence is identical between vastly different phenotypes, but where changes in gene regulation is instead are responsible for the phenotypic variation.
+As stated in @sec:genetic-variation, the regulatory genome has received ever more attention throughout the last 15 years.
+New studies increasingly identify examples where protein sequence is identical between vastly different phenotypes, but where changes in gene regulation is instead responsible for the phenotypic variation.
 Examples of this are beak length [@Abzhanov2006] and beak shape [@Lamichhaney2015] in Darwin's finches, and the previously mentioned differences between humans and chimpanzees [@Pollard2006; @Polavarapu2011].
 In the study of Darwin's finches by @Lamichhaney2015, one of the genes that was associated with the differences in beak shape was a transcription factor (TF).
 Transcription factors are proteins that bind to promoter regions upstream of genes and that consequently recruit the transcriptional machinery involving the RNA polymerase ([@fig:gene-expression]).
@@ -43,27 +43,30 @@ Transcription factors have to be expressed, and they in turn regulate the expres
 This quickly scales to form a complex network that is not easy to disentangle.
 To further complicate things, even if all factors needed to transcribe a particular gene are available, the gene might still not be expressed if the 3D structure of the DNA is not arranged in a configuration that allows access to the transcription factor binding sites, for example.
 In order for e.g.\ enhancers to act properly, they need to be physically close to the gene it acts upon ([@fig:gene-expression]).
-Due to this complexity, most studies of regulatory networks have so far been limited to a smaller sets of genes [@Chai2014].
+
+- Good place to introduce epigenetics. Talk about methylation and how it can block binding sites. Also mention the 3D structure of DNA and how this is controlled by epigenetics.
+
+Due to this complexity, most studies of regulatory networks have so far been limited to smaller sets of genes [@Chai2014].
 
 ### Quantifying gene expression
 
 Similar to genome sequencing, the estimation of gene expression received a big boost from the development of high-throughput sequencing.
-In the case of gene expression, instead of extracting and sequencing the DNA, the mRNA is extracted, reverse transcribed into complementary DNA (cDNA) and this is then sequenced a process referred to as RNA-Sequencing.
+In the case of gene expression, instead of extracting and sequencing the DNA, the mRNA is extracted, reverse transcribed into complementary DNA (cDNA) and this is then sequenced---a process referred to as RNA-Sequencing.
 This effectively creates a snapshot of the abundance of all transcribed RNAs---the transcriptome---in a tissue of interest at the time of extraction.
 The last part of this sentence is something that is very important to consider, and we will come back to this in [@sec:limitations].
 With the previously very popular microarray technology, relative quantification of transcript abundance was also possible, but limited to the genes that were included on the array, among other limitations.
-With RNA-Sequencing, *all* mRNA in the cell can, theoretically, be sequenced, regardless of whether the gene expressing it has previously been identified and annotated or not.
+With RNA-Sequencing, *all* mRNA in the cell can, theoretically, be sequenced, regardless of whether the gene expressing it has previously been identified and annotated, or not.
 
 The data from RNA-Sequencing is similar to that from DNA-Sequencing in that it consists of sequence reads based on a set of template sequences. In addition to being able to measure the expression of all genes and not only known genes, the dynamic range of RNA-Sequencing is significantly wider compared to microarrays since the signal does not get saturated, and the noise levels are lower [@Wang2009].
 In order to quantify gene expression, reads are aligned to either a reference transcriptome (all known RNAs in the organisms) or a reference genome (all DNA).
-Both approaches have their advantages and disadvantages, but perhaps the most obvious is that only known gene products will be detected if the reads are aligned to a reference transcriptome.
-Aligning to a reference genome means that no prior information about known genes is used; if reads map to an unannotated region of the genome, then something that is expressed in that region.
+Both approaches have their advantages and disadvantages, but perhaps the most obvious disadvantage of using a reference genome is that only known gene products will be detected if the reads are aligned to a reference transcriptome.
+Aligning to a reference genome means that no prior information about known genes is used; if reads map to an unannotated region of the genome, then something is expressed in that region.
 One problem of aligning reads to the genome is that splice junctions have to be handled.
 A splice junction is the border between an exon and an intron, and these are not present in the sequenced mature mRNA ([@fig:gene-expression]).
 
 A problem that exists for both alignment methods is multi-mapping reads---reads that map to multiple locations in the genome/transcriptome.
 Duplicated genes, for example, might result in multi-mapping reads.
-Even if the genes have diverged when it comes to their regulation, their coding sequences can be more or less identical, and one cannot confidently say which gene reads produced from either of the duplicated copies originated from.
+Even if the genes have diverged when it comes to their regulation, their coding sequences can be more or less identical, and given a read produced from either of the duplicated copies one cannot confidently say from which gene the read originated.
 
 Another problem slightly related to multi-mapping reads is that of alternative splicing variants.
 Splice variants are mRNAs that are produced by the same gene, but they have different composition of exons.
@@ -71,8 +74,10 @@ Some variants might be missing an exon that other transcripts have, for example,
 One possible way around the problem is to look at the expression of exons, and not genes or transcripts as a whole [@Anders2012].
 
 Another more recent approach to read alignment is a collection of methods referred to as pseudo-alignment that is utilised in software such as sailfish [@Patro2014] and kallisto [@Bray2016].
-The principle of pseudo-alignment is to not care about the exact location of every read, but only conclude that the read belongs to a particular transcript.
+The principle of pseudo-alignment is to not care about the exact location of every read, instead to focus on which transcript the read is compatible with.
 These types of methods are quite new and have yet to be thoroughly tested, but they are in any case very interesting simply due to their speed; kallisto is 150--350 times faster than software that traditionally has been used for quantifying gene expression in RNA-Seq data [@Bray2016].
+
+We have developed our own pipeline for read processing and mapping, that was utilised throughout this thesis [@Delhomme2014].
 
 ### Co-expression networks {#sec:coexpression}
 
@@ -101,9 +106,9 @@ capturing and describing biologically relevant gene expression signatures.
 One example is a study performed in lake whitefish (\textit{Coregonus clupeaformis}) where researchers found network modules that were correlated with dwarfism [@Filteau2013].
 Another study identified gene expression signatures common across cancer tumour types using a co-expression network approach [@Doig2013].
 
-As previously stated, the co-expression network is a manifestation of the underlying regulatory network, but it is also important to remember that the co-expression network is only a very representation of the correlation in gene expression levels.
-It only captures the state of mRNA in the cell at the time of sampling, and it is not necessarily a representation of the corresponding protein abundance, or of protein--protein interactions
+As previously stated, the co-expression network is a manifestation of the underlying regulatory network, but it is also important to remember that the co-expression network is only a very simple representation of the correlation in gene expression levels.
+It only captures the state of mRNA in the cell at the time of sampling, and it is not necessarily a representation of the corresponding protein abundance, or of protein--protein interactions.
 Two proteins that *can* interact *will* not necessarily interact just because their corresponding transcripts are expressed at the same time [@Vogel2012].
 However, if two genes are expressed simultaneously in a sufficiently high number of different conditions, it is likely that they share at least some of their regulatory mechanisms.
 One study exploring this in *Arabidopsis* used network cliques---sub-networks where all nodes are connected to all other nodes---to identify potential transcription factor binding sites [@Zheng2011Large].
-They found that motifs identified in cliques that contained many genes targeted by the transcription factor E2Fa in many cases corresponded to the previously verified binding site of that transcription factor.
+They found that regulatory motifs identified in cliques that contained many genes targeted by the transcription factor E2Fa in many cases corresponded to the previously verified binding site of that transcription factor.
