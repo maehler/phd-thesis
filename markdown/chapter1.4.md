@@ -60,7 +60,8 @@ For the work described in this thesis we have instead used natural populations o
 This approach is referred to as association mapping, or linkage disequilibrium mapping.
 This method is related to GWA in that a large number of genetic markers (typically SNPs) are statistically tested to determine whether they are significantly associated with variation in a phenotype; the phenotype in this case being gene expression levels.
 Linkage disequilibrium (LD) is the non-random association between different loci.
-The idea is that the SNPs used for the association are in LD with the factor that is actually responsible for the phenotype. This way, the causal variant itself does not necessarily have to be included in the association, as long as a variant that is in LD with it is included.
+The idea is that the SNPs used for the association are in LD with the factor that is actually responsible for the phenotype.
+This way, the causal variant itself does not necessarily have to be included in the association, as long as a variant that is in LD with it is included.
 
 eQTLs can be classified as either local or distant.
 A local eQTL is close to the gene that it is associated with while a distant one is far away, either on the same chromosome or on a different chromosome than the associated gene.
@@ -75,14 +76,15 @@ If a transcription factor binding site gets disrupted in only one allele, only t
 Conversely, *trans*-eQTLs will have the same effect on both alleles.
 Due to the indirect mechanism of *trans*-eQTL, these are generally of lower effect (remember the slope from [@fig:genetic-association]), and this is something that has been reported by numerous studies (references in [@Breitling2008; @Kliebenstein2009]), although there are exceptions [@Clement-Ziza2014].
 Normally *cis* acting variants are local to the associated gene while *trans* effects are more distant.
-Many studies have opted to only consider local eQTL [@Ardlie2015], and this is to some extent a tactical decision in that it makes the computational problem a bit easier since fewer tests have to be performed, and consequently, the multiple testing problem becomes slightly less of a problem since the number of markers considered for each gene is much smaller than the total number of markers.
+Some studies opt to only consider local eQTL, like [@Ardlie2015], and this is to some extent a tactical decision in that it makes the computational problem a bit easier since fewer tests have to be performed, and consequently, the multiple testing problem becomes slightly less of a problem since the number of markers considered for each gene is much smaller than the total number of markers.
 
 The first study of the genetics underlying gene expression variation was performed in yeast in 2002 [@Brem2002] and included 3,312 genetic markers and 6,215 genes.
 At the time this was a big feat, but today we are able to run association tests for all genes in the genome and all markers as demonstrated by the human Genotype Tissue Expression project (GTEx; [@Ardlie2015]) with a total of about 6.8 million SNPs and using both coding and non-coding genes (53,934 genes in total).
 
 #### Biology gets complicated quickly {#sec:complexity}
 
-![Simplified example of when eQTL effects and gene regulation is masked. A green checkmark means the regulatory link is enabled, while a red cross means it is disabled.
+![Simplified example of when eQTL effects and gene regulation is masked.
+A green checkmark means the regulatory link is enabled, while a red cross means it is disabled.
 Green arrows indicate up-regulation of the gene while a red arrow indicates down-regulation of the gene.
 In the regulatory network, the regulators R1 and R2 are always on, while regulator R3 is on as long as at least one of the eQTLs Q2 or Q3 enables the signal.
 The expression of G1 only depends on Q1, and this eQTL is thus easily detected by standard eQTL mapping methods since there is a perfect relationship between the genotype and the expression.
@@ -111,6 +113,13 @@ Assuming that we are able to calculate 10 million models per second---which is a
 Moreover, this is not even the worst part since the ridiculous number of tests would need a correspondingly strict correction for multiple testing.
 In order for any effect, no matter how large, to be significant, an enormous amount of sequenced and phenotyped individuals is needed.
 This can be viewed as the Catch 22 of genomics, where we have biological complexity on one side and limited data availability and computational power on the other.
+
+Machine learning is class of methods that can be used in order to identify patterns in large data sets.
+In paper II we use a support vector machine (SVM)approach to classify samples as male or female based on gene expression.
+Omics data have a dimensionality problem with a large number of variables (e.g.\ genes) compared to the number of observations.
+A SVM will very likely perform very well on this kind of data, but it will not generalise, i.e.\ new observations will not be classified with a very high accuracy.
+This can be alleviated somewhat by limiting the model using cross-validation, but instead the model will likely have a bad performance for all data instead.
+In order to use methods like this, the data must be limited to smaller data sets with a higher signal to noise ratio.
 
 As seen in [@fig:complexity], the complexity of regulation often results in redundancy in the regulatory network, redundancy that can act as a buffer for random mutations [@Rutherford2000].
 Here gene duplications play a role as well since with two copies of the same gene, any detrimental mutations to one of them will most likely not affect the organism in a drastically negative way.
