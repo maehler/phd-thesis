@@ -1,9 +1,9 @@
 # Discussion
 
 In order to decipher the emergence of complex traits, the most common approaches that are used today, such as GWAS and eQTL mapping, are not enough by themselves.
-To be able to find the factors that contribute to complex traits, all layers of regulation must be taken into account in one way or another.
+To be able to find the factors that contribute to complex traits, all layers of regulation must be taken into account.
 However, this is not a trivial task.
-Firstly, the limitations for the individual data types must be taken into account.
+Firstly, the limitations for the individual data types must be accounted for.
 Secondly, the data must be integrated in a way that maximises the information we are able to get out, while at the same time minimising the number of false associations.
 
 This thesis has explored some of the strategies that can be used in order to unravel the emergence of complex traits, utilising gene expression data, genotype data, and phenotype data.
@@ -14,7 +14,7 @@ In no way have we exhausted the possibilities with the data we have worked with.
 
 The future holds much in store when it comes to the analysis of complex traits.
 With sequencing costs already being low, they will probably get even lower.
-Furthermore, new technologies, such as nanopore sequencing [@Schneider2012] that enables sequencing of longer reads, will enable even more accurate quantification of gene expression and identification of genetic variation.
+Furthermore, new technologies, such as nanopore sequencing [@Schneider2012] that enables sequencing of longer reads, will allow even more accurate quantification of gene expression and identification of genetic variation.
 With the short-read technologies that dominate the market today, there are a lot of ambiguities when it comes to e.g.\ the expression of splice variants
 and allele-specific expression; problems that have yet to be solved.
 Disruption of splicing has been associated with several human diseases [@Tazi2009], and may play an important role in environmental adaptation in plants [@Staiger2013].
