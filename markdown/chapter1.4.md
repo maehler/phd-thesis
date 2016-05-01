@@ -112,8 +112,6 @@ Moreover, this is not even the worst part since the ridiculous number of tests w
 In order for any effect, no matter how large, to be significant, an enormous amount of sequenced and phenotyped individuals is needed.
 This can be viewed as the Catch 22 of genomics, where we have biological complexity on one side and limited data availability and computational power on the other.
 
-- Machine learning?
-
 As seen in [@fig:complexity], the complexity of regulation often results in redundancy in the regulatory network, redundancy that can act as a buffer for random mutations [@Rutherford2000].
 Here gene duplications play a role as well since with two copies of the same gene, any detrimental mutations to one of them will most likely not affect the organism in a drastically negative way.
 Not only does this protect the organism, but it can also hide the regulatory mechanism from traditional analysis methods.
@@ -122,9 +120,15 @@ If something is easy to disentangle, then a very small perturbation, like a muta
 This is part of why we, in paper III, hypothesise that genes that are central in the co-expression network have evolved more redundancy in their regulation.
 By having more redundancy, these genes will not be affected as easily by random mutations, and this is the same idea underlying the hypothesis of scale-free biological networks ([@sec:coexpression]).
 
-### Quantitative genetics
+### Genetic variants in an evolutionary context
 
 - Not the main focus on the thesis.
 - Put the variants described above in an evolutionary context.
 - The genome is not static. The mutations we are seeing are probably going somewhere, and there are methods available for investigating this.
 - Heritability, Qst? G3 in [@fig:complexity] is a nice example of a gene with potentially high heritable expression, but it is not detected by traditional eQTL mapping.
+
+The genetic variants that are used for association mapping are not static.
+From a population point of view they are going somewhere.
+They could slowly be removed from the population if they have a detrimental effect on reproductive fitness, for example (negative selection), or they could be kept in the population in order to maintain genetic diversity (neutral selection).
+Quantitative genetics is not the main focus of this thesis, but it is still an integral part.
+It can be used to put the genetic variation into an evolutionary context that can help explain where these variants are coming from and where they are going.
