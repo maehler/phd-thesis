@@ -53,7 +53,20 @@ We hypothesise that these central genes have more regulatory redundancy than gen
 The regulation is governed by many small-effect eQTLs that in concert offers genetic buffering of the regulation of these genes.
 Due to a relatively small population size, we are not able to detect these small effect size eQTLs, and a given, but practically difficult, follow-up would be to collect more data in order to test this hypothesis.
 
-## Paper IV --- Leaf shape GWAS and data integration
+## Paper IV --- Leaf shape and systems genetics
 
-In contrast to paper II and paper III where a one-gene-at-a-time (or at most, pairs of genes) approach was followed, paper IV puts more emphasis on the complexity of leaf traits as they emerge from the interaction of many genes.
-Previous studies of leaf shape has shown that it serves as a good proxy for historical temperature [@Royer2005], and that leaf shape also is highly polygeneic [@Tian2011].
+Leaves in plants are the main organs for photosynthesis and carbon fixation, and the morphology of leaves affects photosynthetic efficiency.
+Furthermore, leaves are often one of the most recognisable traits of a plant.
+In paper IV we applied a systems genetics approach where data on genotype, gene expression, and phenotype were integrated in order to understand the control of natural variation of leaf shape in *Populus tremula*.
+In contrast to paper II and paper III where a on-gene-at-a-time approach was followed, paper IV focus on explaining the complexity of leaf traits as they emerge from the interaction of many genes.
+
+Three different leaf traits were considered: circularity, indent width, and leaf area.
+Only a handful of SNPs were significant in GWA for indent width and leaf area, while none were significant for circularity.
+Two of the traits, circularity and indent width, were highly heritable.
+Of the SNPs with the highest significance, most were located in untranslated regions of genes, indicating that they might be exerting their effects through gene expression.
+However, very few of the SNPs were also eQTL SNPs in paper III.
+Furthermore, correlating gene expression values against the leaf traits did not result in any significant correlations, indicating that neither single-SNP nor single-gene approaches for dissecting leaf shape are viable.
+
+We took these results as support for the infinitesimal model, i.e.\ that these traits are controlled by numerous variants of small effect size.
+Consequently, we employed a gene set enrichment approach where sets of genes associated with the top GWAS results were tested, as well as gene sets based on gene ontology terms.
+Here, several gene sets with a common functional role had a significant association to each of the three traits, emphasising the need to go beyond single-SNP and single-gene approaches in order to understand complex traits.
