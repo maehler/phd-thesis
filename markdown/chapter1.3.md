@@ -75,8 +75,8 @@ Splice variants are mRNAs that are produced by the same gene, but they have diff
 Some variants might be missing an exon that other transcripts have, for example, and these transcripts are even harder to separate than duplicated genes.
 One possible way around the problem is to look at the expression of exons, and not genes or transcripts as a whole [@Anders2012].
 
-Another more recent approach to read alignment is a collection of methods referred to as pseudo-alignment that is utilised in software such as sailfish [@Patro2014] and kallisto [@Bray2016].
-The principle of pseudo-alignment is to not care about the exact location of every read, instead to focus on which transcript the read is compatible with.
+Another more recent approach to read alignment is a collection of methods referred to as "alignment free" that are utilised in software such as sailfish [@Patro2014] and kallisto [@Bray2016].
+The principle of these methods is to not care about the exact location of every read, instead to focus on which transcript the read is compatible with.
 These types of methods are quite new and have yet to be thoroughly tested, but they are in any case very interesting simply due to their speed; kallisto is 150--350 times faster than software that traditionally has been used for quantifying gene expression in RNA-Seq data [@Bray2016].
 
 We have developed our own pipeline for read processing and mapping, that was utilised throughout this thesis [@Delhomme2014].
