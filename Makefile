@@ -28,7 +28,7 @@ PFLAGS=--latex-engine=pdflatex \
 	--include-after-body $(MDDIR)/paper3.md \
 	--include-after-body $(MDDIR)/paper4.md
 
-PAPERMD=$(addprefix $(MDDIR)/, paper1.md paper2.md)
+PAPERMD=$(addprefix $(MDDIR)/, paper1.md paper2.md paper3.md paper4.md)
 
 OUTPUT=thesis
 BIB=$(REFDIR)/$(OUTPUT).bib
