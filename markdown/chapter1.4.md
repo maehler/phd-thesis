@@ -131,9 +131,8 @@ By having more redundancy, these genes will not be affected as easily by random 
 
 ### Genetic variants in an evolutionary context
 
-The genetic variants that are used for association mapping are not static.
-From a population point of view they are going somewhere.
-They could slowly be removed from the population if they have a detrimental effect on reproductive fitness (negative or purifying selection), or they could actively be kept in the population in order to maintain genetic diversity (balancing selection), or they could be under no selection pressure and just drift through the population (genetic drift).
-These concepts can be used to put the genetic variation into an evolutionary context that can help explain where these variants are coming from and where they are going.
-In the context of eQTLs, a recent study showed signs of eQTLs being under negative selection and that the effect size of the eQTLs were negatively correlated with their frequency [@Josephs2015].
+The genetic variants that are used for association mapping are not static in evolutionary time and their current state in a population reflects the evolutionary history and outcome within extant individuals of the popoulation being studied.
+Mutations (i.e.\ markers) could slowly be removed from the population if they have a detrimental effect on reproductive fitness (negative or purifying selection), they could become fixed if they have a beneficial effect (positive selection), there could be selection to maintain a mix of alleles (balancing selection), or they could be under no selection pressure (selectively neutral) and just drift through the population (genetic drift).
+These concepts can be used to put the genetic variation into an evolutionary context that can help understand the process that have acted on mutations since their point of origin in the history of a species.
+In the context of eQTLs, a recent study showed signs of eQTLs being under negative selection and that the effect size of the eQTLs were negatively correlated with their frequency [@Josephs2015], a finding in common to those reported here in paper III.
 
