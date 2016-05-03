@@ -35,9 +35,9 @@
 
     \vfill
     \small{
-        Thesis number xxx \\
-        ISSN xxx-xxxx \\
-        ISBN xxx-xx-xxx-xxxx-x
+        Thesis number 2016:52 \\
+        ISSN 1894-6402 \\
+        ISBN 978-82-575-1372-6
     }
 
     \end{center}
