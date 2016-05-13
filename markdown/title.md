@@ -22,7 +22,7 @@
 
     \vspace{0.5cm}
 
-    Dept. of Chemistry, Biotechnology and Food Science \\
+    Dept.\ of Chemistry, Biotechnology and Food Science \\
     Norwegian University of Life Sciences
 
     \vspace{0.5cm}
