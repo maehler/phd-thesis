@@ -22,7 +22,7 @@ A long lived debate in this area of research is the nature versus nurture debate
 Today the general consensus is that most traits are a result of both genotype and the environment that the genotype is subjected to.
 To add additional complexity, there is also interaction between the genotype and the environment (or G\texttimes{}E), a phenomenon where different genotypes respond differently to changes in environment [@Falconer1996].
 Twin studies have often been used to study these types of interactions.
-For example, if identical twins separated at birth remain very similar, albeit not absolutely identical, for a particular phenotypic trait, this trait is inferred to be under tight genetic control [@Bouchard1990].
+For example, if identical twins separated at birth remain very similar, albeit not absolutely identical, for a particular phenotypic trait, this trait is inferred to be under tight genetic control [@Bouchard1990a].
 Consequently, the trait is then also highly heritable and is environmentally invariant.
 
 @Fig:overview shows an overview of how information travels from the DNA via RNA to proteins and metabolites (the central dogma of molecular biology) and how these interact to give rise to complex phenotypes.
