@@ -109,7 +109,7 @@ In paper III we work with about 3.2 million SNPs and about 20,000 genes resultin
 This would be able to capture the expression of G1.
 In order to dissect the expression of R3 and G2 we would need to create models using all pairs of SNPs against all genes and this would result in $1.02 \times 10^{17}$ models.
 The expression of G3 is explained by three eQTLs, and in order to test all SNP triplets, we would have to investigate $1.09 \times 10^{23}$ models.
-Assuming that we are able to calculate 10 million models per second---which is about the same speed as we achieved in paper III---computing all models for pairs of SNPs would take more than 300 *years*, and all models of SNP triplets would take more than 34 *million* years.
+Assuming that we are able to calculate 10 million models per second---which is about the same speed as we achieved in paper III---computing all models for pairs of SNPs would take more than 300 *years*, and all models of SNP triplets would take more than 340 *million* years.
 Moreover, this is not even the worst part since the ridiculous number of tests would need a correspondingly strict correction for multiple testing.
 In order for any effect, no matter how large, to be significant, an enormous amount of sequenced and phenotyped individuals is needed.
 This can be viewed as the Catch 22 of genomics, where we have biological complexity on one side and limited data availability and computational power on the other.
