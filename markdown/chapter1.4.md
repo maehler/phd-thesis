@@ -6,6 +6,19 @@ In the following sub-sections I will present the concept of association studies 
 
 ### Genome-wide association
 
+\begin{figure}[!b]
+	\includegraphics[width=\textwidth]{figures/associations.pdf}
+	\caption{A schematic example of an association study with three different individuals with three different genotypes at a particular locus (left): A/A, A/G, and G/G.
+These genotypes explain the height of these individuals where the G allele is associated with higher individuals.
+Associating this locus with the height of individuals in a population might yield the plot to the right.
+The dashed line is then fitted to the data to minimise the distances between all data points and this line.
+If the slope of this line is significantly different from zero we say that the association is significant.
+The effect size is the slope of the fitted line and the variance explained by the SNP is related to the amount of variation of the data points around the line.
+The closer the points are to the line, the more of the phenotypic variation is explained by the SNP.
+Finally, the significance of the association is the probability of the slope of the line being different from zero.}
+	\label{fig:genetic-association}
+\end{figure}
+
 I dare to bet that most people have come into contact with genome wide association studies (GWAS) at one time or another.
 Whenever you see headlines in the news such as "the obesity gene has been found", it is likely that the underlying study is a GWA study.
 It is also likely that the sensational headline is not quite true.
@@ -34,15 +47,6 @@ With fewer samples, only the most obvious associations will be detected, i.e.\ t
 For example, in the study of human height mentioned previously, more than 250,000 individuals were included in the study [@Wood2014], and a meta-analysis of almost the same magnitude was performed to find a genetic explanation to body mass index [@Speliotes2010].
 In both cases the phenotypic variance explained by individual variants was very low (below 1%).
 These small effects would not be detectable in a smaller study.
-
-![A schematic example of an association study with three different individuals with three different genotypes at a particular locus (left): A/A, A/G, and G/G.
-These genotypes explain the height of these individuals where the G allele is associated with higher individuals.
-Associating this locus with the height of individuals in a population might yield the plot to the right.
-The dashed line is then fitted to the data to minimise the distances between all data points and this line.
-If the slope of this line is significantly different from zero we say that the association is significant.
-The effect size is the slope of the fitted line and the variance explained by the SNP is related to the amount of variation of the data points around the line.
-The closer the points are to the line, the more of the phenotypic variation is explained by the SNP.
-Finally, the significance of the association is the probability of the slope of the line being different from zero.](figures/associations.pdf){#fig:genetic-association width=100%}
 
 ### eQTL mapping {#sec:eqtl-mapping}
 
@@ -83,14 +87,18 @@ At the time this was a big feat, but today we are able to run association tests 
 
 #### Biology gets complicated quickly {#sec:complexity}
 
-![Simplified example of when eQTL effects and gene regulation is masked.
+\begin{figure}[!t]
+	\includegraphics[width=\textwidth]{figures/complexity.pdf}
+	\caption{Simplified example of when eQTL effects and gene regulation is masked.
 A green checkmark means the regulatory link is enabled, while a red cross means it is disabled.
 Green arrows indicate up-regulation of the gene while a red arrow indicates down-regulation of the gene.
 In the regulatory network, the regulators R1 and R2 are always on, while regulator R3 is on as long as at least one of the eQTLs Q2 or Q3 enables the signal.
 The expression of G1 only depends on Q1, and this eQTL is thus easily detected by standard eQTL mapping methods since there is a perfect relationship between the genotype and the expression.
 Due to the dual regulators and eQTLs for R3, there is no perfect relationship between the eQTLs Q2 and Q3 and either R3 or G2.
 The regulation of G3 is even more complicated where R3 needs to be expressed, and at the same time Q4 must enable the signal.
-No perfect relationship between G3 and any of the eQTLs exist even though Q4 is *cis*-acting and Q2 and Q3 are both *trans*-acting.](figures/complexity.pdf){#fig:complexity width=100%}
+No perfect relationship between G3 and any of the eQTLs exist even though Q4 is \textit{cis}-acting and Q2 and Q3 are both \textit{trans}-acting.}
+	\label{fig:complexity}
+\end{figure}
 
 Complex traits are the result of the interactions between many different factors.
 When it comes to eQTLs, the most common approach is to consider pairs of genes and genetic variants one by one.
