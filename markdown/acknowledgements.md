@@ -11,21 +11,20 @@ Thank you, Rickard and Peter, for the late-night Battlefield sessions in the pas
 
 Without all the people at Umeå Plant Science Centre I don't think I would be where I am today.
 It was here that I got the inspiration to pursue a PhD in the first place.
-Thanks to David for lending out his couch whenever I visited, and a big thanks to Jing for contributing to the more hard-core genetics side of things.
-A special thank you goes out to Nat and Tiggy for always being there to correct my crappy English and answer my naïve biology questions.
-Without their contributions I would have been at least two papers short.
+Thanks to David for nice discussions and for lending out his couch whenever I visited, and a big thanks to Jing for contributing to the more hard-core genetics side of things.
+A special thank you goes out to Nat and Tiggy for providing me with interesting data and for guiding me through the more hairy biology.
+Working together with you has been a huge source of inspiration to me, and for that you have my gratitude.
 
 Last but not least, the Biostatistics group.
-What an amazing collection of people always having their doors and minds open.
-In case you had some onscure R question, or just wanted to see a cool plot, Lars Jr.\ was the go-to guy.
-I will miss the coffee breaks in the appendix, the fishing stories of Lars Sr\., the marathon/Birken ramblings from Trygve and Solve, as well as all the electric car propaganda (I'm looking at you Hilde).
-There were seldom boring moments, much thanks to the party committee led by Navreet and Guro. All in all, you're awesome!
+What an amazing collection of people, always having their doors and minds open.
+It has been a privilege sharing the workplace with you, and I will miss the coffee breaks in the appendix, the fishing stories, the marathon/Birken/factor discussions, the food festivals, the Bollywood dancing, as well as all the electric car propaganda.
+There were seldom boring moments, much thanks to the party committee led by Navreet and Guro. You are all awesome!
 
 \vfill
 
 \parbox{\textwidth}{
 	\raggedleft{
-		May 2, 2016\\
+		June 6, 2016\\
 		Ås, Norway\\
 		Niklas Mähler
 
