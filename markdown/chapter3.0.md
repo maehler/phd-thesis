@@ -24,9 +24,9 @@ It might be easy in theory, but just as for short-read sequencing, there will su
 
 When it comes to sequencing, a high quality reference genome is a vital component in order to map genetic variation or quantify gene expression.
 Up until today, reference genomes are simply a long string of characters effectively representing a single haplotype in a single individual.
-Projects such as the 1000 genomes project [@Auton2015] make it possible to deviate from this path and construct reference genomes that not only represents a consensus genome sequence, but that also represent the variation present in populations of individuals.
+Projects such as the 1000 genomes project [@Auton2015] make it possible to deviate from this path and construct reference genomes that not only represent a consensus genome sequence, but that also represent the variation present in populations of individuals.
 There have been several studies to date reporting reference allele bias in RNA-Sequencing data, i.e.\ reads originating from the reference allele will map more confidently to the reference genome compared to a read originating from an allele that contains polymorphisms relative to the reference [@Degner2009; @Stevenson2013; @Panousis2014].
-This could be alleviated by having a reference genome format that represents known variation together with compatible software.
+This could be alleviated by having a reference genome format that represents known variation, together with compatible software.
 The latest release of the human reference genome (GRCh38) is a step in this direction with alternative loci available for selected parts of the genome that are too complex to be represented by a single sequence.
 In order to include all known genetic variation from e.g.\ the 1000 Genomes Project a number of associated challenges must be overcome, and this is something that likely will move forward slowly.
 

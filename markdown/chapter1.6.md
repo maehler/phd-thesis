@@ -2,7 +2,7 @@
 
 Although the strategies for elucidating the emergence of complex traits discussed in this thesis are promising, there are practical limitations that cannot be circumvented, at least not easily.
 In cases where natural populations are studied, we are dependent on capturing the right moment when the biochemical process of interest is active.
-If we don't sample at the critical time point, we risk missing the processes that actually define the trait of interest.
+If we do not sample at the critical time point, we risk missing the processes that actually define the trait of interest.
 Not only is the sampling time point critical for capturing e.g.\ a developmental stage, it is also important to consider daily fluctuations that can have an effect on gene expression.
 This is clearly demonstrated in a recent study in rice where gene expression was quantified in the field, and it was shown that even short term variations in temperature and sunlight levels modified gene expression in a reproducible manner [@Plessis2015].
 

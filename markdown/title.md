@@ -7,7 +7,7 @@
 
     \parbox{0.7\textwidth}{
         \centering
-        \normalsize{Genregulering og emergens av fenotyper---et nettverksstudie}
+        \normalsize{Genregulering og emergens av fenotyper---en nettverksstudie}
     }
 
     \vspace{1.5cm}

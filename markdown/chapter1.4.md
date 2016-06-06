@@ -12,10 +12,10 @@ It is also likely that the sensational headline is not quite true.
 What researchers have done in cases like this is to collect populations of individuals; those that have the phenotype of interest, such as a disease, and another population of healthy people.
 The genomes of these individuals are then sequenced or otherwise assayed for genetic variants and the researchers then ask themselves: can we identify variants that can be used to predict if an individual will be healthy or diseased?
 
-Prediction is usually performed by way of relatively simple linear regression models where the disease status or the quantitative phenotype acts as the response variable and the genetic variant as the explanatory variable ([@fig:genetic-association]).
+Prediction is usually performed by way of relatively simple linear regression models where the disease status or the quantitative phenotype acts as the response variable and the genetic variant as the explanatory variable.
 A straight line is then fitted to the data and represents the predicted trait value for a given genotype ([@fig:genetic-association]).
 These types of linear models assume that there is an additive effect, i.e.\ the contribution of an allele adds up to explain the phenotype.
-In [@fig:genetic-association], this is shown by the G allele adding to the trait value in a way that two copies of the G allele has twice the effect compared to having one copy of the G allele, in relation to having no G alleles.
+In [@fig:genetic-association], this is shown by the G allele adding to the trait value in a way that two copies of the G allele has twice the effect compared to having one copy of the G allele, in relation to having no G allele.
 It is not hard to imagine that GWA studies often require a huge number of tests.
 In humans, for example, we expect to find one SNP every 1.9 kilobases in the genome [@Sachidanandam2001], and this would result in more than 1.5 million tests if one were to test the association to the phenotype of interest for each and every genetic variant.
 This has a few consequences, but mainly it requires computational power that has only become widely available quite recently.
@@ -26,7 +26,7 @@ In the case of GWA in humans, suppose that we are associating 1.5 million varian
 Applying the commonly used p-value threshold of 0.05 means that we would expect 75,000 false positive associations, i.e.\ associations that are due to purely random chance as a direct result of the number of tests.
 To control for this the p-values can be adjusted according to the number of tests performed using approaches such as the Bonferroni correction, where the obtained p-values are multiplied by the number of tests.
 Depending on the context, other less stringent methods are often preferred, like methods that control the false discovery rate (FDR) [@Benjamini1995].
-In studies involving genomic and gene expression data, there is extensive correlation structures in the data.
+In studies involving genomic and gene expression data, there is extensive correlation structure in the data.
 Using relatively simple approaches such as Bonferroni or FDR correction will not take the correlation structure into account and can thus be overly conservative, and this can be overcome by using permutation tests.
 
 In order to detect associations with a very low effect, i.e.\ a slope close to zero (see @fig:genetic-association), a large number of samples are needed.
@@ -115,9 +115,9 @@ In order for any effect, no matter how large, to be significant, an enormous amo
 This can be viewed as the Catch 22 of genomics, where we have biological complexity on one side and limited data availability and computational power on the other.
 
 Machine learning is class of methods that can be used in order to identify patterns in large data sets.
-In paper II we use a support vector machine (SVM)approach to classify samples as male or female based on gene expression.
+In paper II we use a support vector machine (SVM) approach to classify samples as male or female based on gene expression.
 Omics data have a dimensionality problem with a large number of variables (e.g.\ genes) compared to the number of observations.
-A SVM will very likely perform very well on this kind of data, but it will not generalise, i.e.\ new observations will not be classified with a very high accuracy.
+An SVM will very likely perform very well on this kind of data, but it will not generalise, i.e.\ new observations will not be classified with a very high accuracy.
 This can be alleviated somewhat by limiting the model using cross-validation, but instead the model will likely have a bad performance for all data instead.
 In order to use methods like this, the data must be limited to smaller data sets with a higher signal to noise ratio.
 

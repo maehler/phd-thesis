@@ -18,26 +18,26 @@ This is a simplified view of how coding regions are transcribed.](figures/transc
 As stated in @sec:genetic-variation, the regulatory genome has received ever more attention throughout the last 15 years.
 New studies increasingly identify examples where protein sequence is identical between vastly different phenotypes, but where changes in gene regulation is instead responsible for the phenotypic variation.
 Examples of this are beak length [@Abzhanov2006] and beak shape [@Lamichhaney2015] in Darwin's finches, and the previously mentioned differences between humans and chimpanzees [@Pollard2006; @Polavarapu2011].
-In the study of Darwin's finches by @Lamichhaney2015, one of the genes that was associated with the differences in beak shape was a transcription factor (TF).
+In the study of Darwin's finches by Lamichhaney et al.\ [@Lamichhaney2015], one of the genes that was associated with the differences in beak shape was a transcription factor (TF).
 Transcription factors are proteins that bind to promoter regions upstream of genes and that consequently recruit the transcriptional machinery involving the RNA polymerase ([@fig:gene-expression]).
 The regions of a genome that transcription factors recognise are commonly referred to as motifs.
-They are short DNA sequences with a specific composition that is meant to matches the binding residues in the active site of a transcription factor protein.
+They are short DNA sequences with a specific composition that is meant to match the binding residues in the active site of a transcription factor protein.
 These motifs are often degenerate, i.e.\ some positions in the motif can have a number of different DNA bases without affecting function, and can thus be difficult to detect [@Stormo2000].
 It is also very difficult to predict the effect of a single mutation in one of these binding sites.
 One recent study characterised the effect on gene expression by somatic mutations in cancer tumours and found that many of the genes displayed altered regulation as a result of mutations in transcription factor binding sites [@Mathelier2015].
 This study emphasises the important role that the regulatory genome plays in complex disease.
 
-There are several computational approaches for identifying regulatory motifs, and perhaps the most common method is to compare regulatory sequences (e.g.\ promoters) thought to thought to be used by the same transcription factor, and identify common regions corresponding to binding sites (motifs) among these sequences.
+There are several computational approaches for identifying regulatory motifs, and perhaps the most common method is to compare regulatory sequences (e.g.\ promoters) thought to be used by the same transcription factor, and identify common regions corresponding to binding sites (motifs) among these sequences.
 Sequences to consider could be the promoters of genes with similar expression profiles (co-expressed genes) or of genes involved in the same biochemical pathway.
-Phylogenetic footprinting can increases detection power by including regulatory sequences from multiple related species in addition to the species studied, so called phylogenetic footprinting [@Tagle1988; @Blanchette2002].
-The promoter regions of orthologous genes---the same gene in different species ---are compared, and assuming that transcription factor binding sites accumulate mutations slower than surrounding, non-functional, regions, sites are identified.
+One way of increasing detection power is by including regulatory sequences from multiple related species in addition to the species studied, so called phylogenetic footprinting [@Tagle1988; @Blanchette2002].
+The promoter regions of orthologous genes---the same gene in different species---are compared, and assuming that transcription factor binding sites accumulate mutations slower than surrounding, non-functional, regions, sites are identified.
 
 Transcription factors play one role in the regulation of gene expression.
 They can either activate or repress gene expression, and in many cases several transcription factors, both activators and repressors, are involved in determining the final regulatory output for a gene, i.e.\ how highly expressed it will be.
 Combinatorial relationships make it very difficult to test, or even computationally explore, all regulatory mechanisms in order to explain the expression patterns of a gene.
 In a study that attempted to dissect the combinatorial nature of gene expression regulation [@Street2011], the authors were able to explain gene expression inside transcriptional modules computationally based on the expression of the regulators.
 In this case, the dimensionality of the search space was reduced by limiting the number of studied genes to those that were expressed in a particular tissue---aspen leaves.
-Furthermore, the regulators considered for each module were determined in an iterative fashion, where a new regulator was only added if it increased the predictive power of the model.
+Furthermore, the regulators considered for each module were determined in an iterative fashion, where a new regulator was added only if it increased the predictive power of the model.
 
 Most genes are transcribed at some point in the lifetime of an organism, but this could possibly be at a single time point in a specific tissue.
 Thus, it is easy to see that there must be a very complex regulatory system orchestrating transcription.
@@ -61,7 +61,7 @@ With RNA-Sequencing, *all* mRNA in the cell can, theoretically, be sequenced, re
 
 The data from RNA-Sequencing is similar to that from DNA-Sequencing in that it consists of sequence reads based on a set of template sequences. In addition to being able to measure the expression of all genes and not only known genes, the dynamic range of RNA-Sequencing is significantly wider compared to microarrays since the signal does not get saturated, and the noise levels are lower [@Wang2009].
 In order to quantify gene expression, reads are aligned to either a reference transcriptome (all known RNAs in the organisms) or a reference genome (all DNA).
-Both approaches have their advantages and disadvantages, but perhaps the most obvious disadvantage of using a reference genome is that only known gene products will be detected if the reads are aligned to a reference transcriptome.
+Both approaches have their advantages and disadvantages, but perhaps the most obvious disadvantage of using a reference transcriptome is that only known gene products will be detected.
 Aligning to a reference genome means that no prior information about known genes is used; if reads map to an unannotated region of the genome, then something is expressed in that region.
 One problem of aligning reads to the genome is that splice junctions have to be handled.
 A splice junction is the border between an exon and an intron, and these are not present in the sequenced mature mRNA ([@fig:gene-expression]).
@@ -75,7 +75,7 @@ Splice variants are mRNAs that are produced by the same gene, but they have diff
 Some variants might be missing an exon that other transcripts have, for example, and these transcripts are even harder to separate than duplicated genes.
 One possible way around the problem is to look at the expression of exons, and not genes or transcripts as a whole [@Anders2012].
 
-Another more recent approach to read alignment is a collection of methods referred to as "alignment free" that are utilised in software such as sailfish [@Patro2014] and kallisto [@Bray2016].
+A more recent approach to read alignment is a collection of methods referred to as "alignment free" that are utilised in software such as sailfish [@Patro2014] and kallisto [@Bray2016].
 The principle of these methods is to not care about the exact location of every read, instead to focus on which transcript the read is compatible with.
 These types of methods are quite new and have yet to be thoroughly tested, but they are in any case very interesting simply due to their speed; kallisto is 150--350 times faster than software that traditionally has been used for quantifying gene expression in RNA-Seq data [@Bray2016].
 
@@ -89,9 +89,9 @@ In contrast to the regulatory network, the co-expression network is simple to co
 A co-expression network can be represented as a graph structure where the vertices are genes and the edges represent the degree of co-expression ([@fig:co-expression]).
 The consensus from a large number of studies is that co-expression networks (and biological networks in general) often are scale-free.
 What this means is that there are few genes with many connections to other genes (high degree centrality) in the network and more genes with few connections (low degree centrality) [@Barabasi1999].
-If the network is disturbed by random perturbations, such as mutations, genes with a high degree centrality are less likely to be targeted, due to their low frequency in the network [@Whitacre2012].
+If the network is disturbed by random perturbations, such as mutations, genes with a high degree centrality are less likely to be targeted, due to their low frequency [@Whitacre2012].
 Consequently, a scale-free network will be robust against random perturbations.
-Another measure of centrality is betweenness centrality which is a measure of how often a node is part of the shortest paths between all pairs of nodes in the network ([@fig:co-expression]).
+Another measure of centrality is betweenness centrality, which is a measure of how often a node is part of the shortest paths between all pairs of nodes in the network ([@fig:co-expression]).
 Co-expression networks have also been found to be modular, that is, there are sub-networks in the global network that are more tightly connected to the inside of the module than to the outside.
 More often than not it is the case that these modules are enriched in functional categories such as Gene Ontology [@Ashburner:2000ja] terms or Kyoto Encyclopedia of Genes and Genomes [KEGG; @Kanehisa2000] pathways [@Langfelder2008; @Langfelder2011].
 

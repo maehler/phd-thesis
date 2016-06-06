@@ -37,7 +37,7 @@ För att kunna få en komplett bild av hur komplexa egenskaper förändras baser
 I denna avhandling undersöker vi genreglering of komplexa egenskaper för att försöka få en klarare bild av hur detta fungerar.
 I artikel I undersöker vi genreglering i cyanobakterien *Synechocystis* genom att integrera regulatoriska motiv med co-uttrycksnätverk.
 Även en webbapplikation utvecklades för att tillgängliggöra resultaten.
-Artikel II ser på sexuell dimorfism i asp (*Populus tremula*) genom att använda data på fenotyper, genuttryck, samt genotyp.
+Artikel II ser på könsdimorfism i asp (*Populus tremula*) genom att använda data på fenotyper, genuttryck, samt genotyp.
 I artikel III riktas fokus mot den genetiska komponenten av variation i genuttryck och hur en klarare bild kan erhållas genom att se på detta ur perspektivet av ett co-uttrycksnätverk. Slutligen expanderar artikel IV på resultaten från artikel III genom att lägga till genotyp--fenotyp--associationer för att försöka förklara skillnad i bladform hos asp.
 
 \newpage

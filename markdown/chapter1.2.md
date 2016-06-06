@@ -4,7 +4,7 @@
 
 All living organisms have at least one thing in common: they have a genome.
 It will not look the same in different species, or even individuals of the same species, but the fundamentals are the same; there are four nucleotides, adenine (A), cytosine (C), guanine (G) and thymine (T), that form the molecule deoxyribonucleic acid, more commonly known as DNA.
-The well known double-helix structure of DNA was discovered in the 1950s, and in the paper by @Watson1953 the second sentence reads: "This structure has novel features which are of considerable biological interest." This might be one of the biggest understatements in modern science.
+The well known double-helix structure of DNA was discovered in the 1950s, and in the paper by Watson and Crick [@Watson1953] the second sentence reads: "This structure has novel features which are of considerable biological interest." This might be one of the biggest understatements in modern science.
 The DNA is organised into larger units called chromosomes, and the number of chromosomes vary from species to species.
 Humans, for example, have 23 chromosomes and is a diploid organism---it has two copies of each of the chromosomes.
 European aspen (\textit{Populus tremula}) has 19 chromosomes, and is also a diploid organism.
@@ -68,15 +68,15 @@ A gene duplication is illustrated as well where individual three has a duplicati
 Technological advancements in the past two decades have led to a revolution in biology.
 Genome sequencing, i.e.\ the process of determining the order of nucleotides in the genome, has become very affordable.
 The $1000 human genome has been a long-time vision, and during my PhD period, became a reality [@CheckHayden2014]\footnote{Depending somewhat on how you count.}.
-It has never been this cheap or easy to obtain a the complete genome sequence of an organism, and this clearly has huge potential for characterising the genetic variation among individuals in a population.
+It has never been this cheap or easy to obtain the complete genome sequence of an organism, and this clearly has huge potential for characterising the genetic variation among individuals in a population.
 
 The process of sequencing an individual involves extracting the DNA, randomly fragmenting the DNA, and then determining the sequence of nucleotides for each DNA fragment.
 The sequencing is then performed until the mean number of sequenced fragments, or reads, for each position in the genome reaches the required depth.
 There are a number of ways that genomic variation can be quantified from high-throughput sequencing data, but the most common approach today is to align the sequencing reads against a reference genome, that is, a genome sequence that has already been determined.
 With this approach it is possible to quantify genetic variation by comparing the read sequences with the reference sequence.
 In the case of diploid organisms we expect to see two alleles for each locus.
-If the locus is homozygous, i.e.\ the two alleles are identical, then the reads originating from that locus should be idential.
-Conversely, if the locus is heterozygous, i.e.\ the two alleles are different, then the reads should ideally divide into two groups.
+If the locus is homozygous, i.e.\ the two alleles are identical, then the reads originating from that locus should be identical.
+Conversely, if the locus is heterozygous, i.e.\ the two alleles are different, then the reads should ideally divide into two groups of equal size.
 Depending on the number of reads that support the variant and the quality of the reads, the variant will be detected, or called.
 
 Different types of prior knowledge can be incorporated in the variant calling in order to increase precision, such as known variants from databases such as dbSNP [@Sherry2001].

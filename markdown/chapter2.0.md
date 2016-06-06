@@ -35,7 +35,7 @@ The rationale behind the sliding window approach comes from the fact that there 
 This locus might contain more than one gene, and individual genes might not be able to fully explain the sex division.
 However, in this case the SVM analysis did not result in any gene combinations that could predict sex any better than single genes.
 Only two individual genes were found to be significantly differentially expressed between the sexes, and one of those was located in a region previously linked to sex determination.
-As reported by [@Pakull2015], and independently discovered by us, part of this gene is deleted in females and thus gives rise to the difference in expression between sexes.
+As reported by Pakull et al.\ [@Pakull2015], and independently discovered by us, part of this gene is deleted in females and thus gives rise to the difference in expression between sexes.
 
 ## Paper III --- Genetic basis of gene expression variation
 
@@ -58,14 +58,14 @@ Due to a relatively small population size, we are not able to detect these small
 Leaves in plants are the main organs for photosynthesis and carbon fixation, and the morphology of leaves affects photosynthetic efficiency.
 Furthermore, leaves are often one of the most recognisable traits of a plant.
 In paper IV we applied a systems genetics approach where data on genotype, gene expression, and phenotype were integrated in order to understand the control of natural variation of leaf shape in *Populus tremula*.
-In contrast to paper II and paper III where a on-gene-at-a-time approach was followed, paper IV focus on explaining the complexity of leaf traits as they emerge from the interaction of many genes.
+In contrast to paper II and paper III where a one-gene-at-a-time approach was followed, paper IV focused on explaining the complexity of leaf traits as they emerge from the interaction of many genes.
 
 Three different leaf traits were considered: circularity, indent width, and leaf area.
 Only a handful of SNPs were significant in GWA for indent width and leaf area, while none were significant for circularity.
 Two of the traits, circularity and indent width, were highly heritable.
 Of the SNPs with the highest significance, most were located in untranslated regions of genes, indicating that they might be exerting their effects through gene expression.
 However, very few of the SNPs were also eQTL SNPs in paper III.
-Furthermore, correlating gene expression values against the leaf traits did not result in any significant correlations, indicating that neither single-SNP nor single-gene approaches for dissecting leaf shape are viable.
+Furthermore, correlating gene expression values with the leaf traits did not result in any significant correlations, indicating that neither single-SNP nor single-gene approaches for dissecting leaf shape are viable.
 
 We took these results as support for the infinitesimal model, i.e.\ that these traits are controlled by numerous variants of small effect size.
 Consequently, we employed a gene set enrichment approach where sets of genes associated with the top GWAS results were tested, as well as gene sets based on gene ontology terms.
