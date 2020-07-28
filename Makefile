@@ -14,11 +14,12 @@ PAPER_PREAMBLE=includes/paper_preamble.tex
 MENDELEY=~/Dropbox/mendeley/Thesis.bib
 REFDIR=references
 
-PFLAGS=--latex-engine=pdflatex \
+PFLAGS=--pdf-engine=pdflatex \
 	--filter pandoc-crossref \
 	--filter pandoc-citeproc \
 	--template templates/template.tex \
-	--chapters --number-sections -H $(PREAMBLE) \
+	--top-level-division=chapter \
+	--number-sections -H $(PREAMBLE) \
 	-V documentclass=book \
 	-V fontsize=10pt \
 	--csl citation-styles/plos.csl \
