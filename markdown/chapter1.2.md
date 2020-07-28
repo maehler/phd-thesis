@@ -58,10 +58,14 @@ In addition, it has been shown that single gene and whole genome duplications pl
 Approximately 15% of angiosperm speciation events are accompanied by a genome duplication event [@Wood2009], and all flowering plants share at least one genome  duplication event in their evolutionary history [@Jiao2011; @Muhlhausen2013a].
 In *Populus* species (poplars, aspens, and cottonwoods), a whole genome duplication event occurred about 65 million years ago [@Tuskan2006].
 
-![Schematic example of genetic variation.
+\begin{figure}[htb]
+    \includegraphics[width=\textwidth]{figures/genetic_variation.pdf}
+    \caption{Schematic example of genetic variation.
 Each of the four diploid individuals has two alleles for each locus representing intergenic sequences (blue), long-range regulatory elements (red), promoters (yellow), and genes (green).
 Polymorphisms where one of the alleles does not match the reference is indicated by black lines.
-A gene duplication is illustrated as well where individual three has a duplication of both alleles while individual four only has a duplication of one of the alleles.](figures/genetic_variation.pdf){#fig:genetic-variation width=100%}
+A gene duplication is illustrated as well where individual three has a duplication of both alleles while individual four only has a duplication of one of the alleles.}
+    \label{fig:genetic-variation}
+\end{figure}
 
 ### Quantifying genetic variation
 

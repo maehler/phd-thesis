@@ -8,10 +8,14 @@ At every step of the process there are different forks in the road that can be t
 Such forks can lead to a gene eventually being translated into protein, or it might result in splicing out part of the gene before translation into a protein, therefore effectively producing an alternative protein from the same gene, or it could lead to the degradation of the mRNA, among numerous other examples.
 These processes are also highly dynamic, responding to different kinds of stimuli, such as environmental changes.
 
-![Schematic overview of gene expression.
+\begin{figure}[hbt]
+    \includegraphics[width=\textwidth]{figures/transcription.pdf}
+    \caption{Schematic overview of gene expression.
 The transcriptional machinery including the RNA polymerase (1) is recruited to the promoter of the gene to be expressed by transcription factors (2) that bind to the promoter and possibly enhancers (3) through specific motifs in the DNA (4).
 The DNA is then translated to RNA by the RNA polymerase (5) and introns are spliced out (6) before the mature mRNA is translated into protein.
-This is a simplified view of how coding regions are transcribed.](figures/transcription.pdf){#fig:gene-expression width=100%}
+This is a simplified view of how coding regions are transcribed.}
+    \label{fig:gene-expression}
+\end{figure}
 
 ### Regulation of gene expression {#sec:regulation-of-gene-expression}
 
@@ -95,13 +99,17 @@ Another measure of centrality is betweenness centrality, which is a measure of h
 Co-expression networks have also been found to be modular, that is, there are sub-networks in the global network that are more tightly connected to the inside of the module than to the outside.
 More often than not it is the case that these modules are enriched in functional categories such as Gene Ontology [@Ashburner:2000ja] terms or Kyoto Encyclopedia of Genes and Genomes [KEGG; @Kanehisa2000] pathways [@Langfelder2008; @Langfelder2011].
 
-![If the expression of two genes is correlated they are said to be co-expressed.
+\begin{figure}
+    \includegraphics[width=\textwidth]{figures/coexpression.pdf}
+    \caption{If the expression of two genes is correlated they are said to be co-expressed.
 This can be represented as a graph, or network, structure where each node represents a gene, and the edges between nodes represent significant co-expression.
 Modules in the network are defined as sub-networks that have a stronger connections to genes inside the module compared to genes outside the module.
 The modules are here represented by background colour.
 Nodes are said to have a high degree centrality if they have many connections to other genes, and these nodes can also be referred to as hub nodes.
 Nodes with a high betweenness centrality are genes that act as a connection between many other pairs of nodes in the network.
-These are typcially nodes that connect modules with each other.](figures/coexpression.pdf){#fig:co-expression width=100%}
+These are typcially nodes that connect modules with each other.}
+    \label{fig:co-expression}
+\end{figure}
 
 Studies have shown that co-expression networks can be useful vehicles in
 capturing and describing biologically relevant gene expression signatures.

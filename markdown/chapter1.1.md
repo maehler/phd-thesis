@@ -28,6 +28,10 @@ Consequently, the trait is then also highly heritable and is environmentally inv
 @Fig:overview shows an overview of how information travels from the DNA via RNA to proteins and metabolites (the central dogma of molecular biology) and how these interact to give rise to complex phenotypes.
 This introduction will go through this figure one concept at a time and explain the underlying biology, the data we retrieve from this biology, and finally, methods used to analyse the data.
 
-![An overview of the different types of data that has been used in this thesis.
+\begin{figure}[htb]
+    \includegraphics[width=\textwidth]{figures/overview.pdf}
+    \caption{An overview of the different types of data that has been used in this thesis.
 As the foundation we have the genome sequence with its genes and variation.
-This gives rise to complex traits by expressing genes that in turn interact with each other in biochemical pathways that in the end can be observed as, for example, leaf shape.](figures/overview.pdf){#fig:overview width=100%}
+This gives rise to complex traits by expressing genes that in turn interact with each other in biochemical pathways that in the end can be observed as, for example, leaf shape.}
+    \label{fig:overview}
+\end{figure}
